@@ -1,0 +1,562 @@
+fileFormatVersion: 2
+guid: 20fa11102c87bd248af932478390ba71
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 2629868758267317170
+    second: Serra-mirror_0
+  - first:
+      213: -8111501012621172626
+    second: Serra-mirror_1
+  - first:
+      213: -6606857245466822500
+    second: Serra-mirror_2
+  - first:
+      213: 1268637477167627438
+    second: Serra-mirror_3
+  - first:
+      213: -7109784808510784507
+    second: Serra-mirror_4
+  - first:
+      213: 9078727914596510070
+    second: Serra-mirror_5
+  - first:
+      213: 4158267732326367682
+    second: Serra-mirror_6
+  - first:
+      213: -3009122480045654503
+    second: Serra-mirror_7
+  - first:
+      213: 4957747891015702263
+    second: Serra-mirror_8
+  - first:
+      213: -7135960116381941037
+    second: Serra-mirror_9
+  - first:
+      213: 4668492994086369981
+    second: Serra-mirror_10
+  - first:
+      213: 1829749734999438377
+    second: Serra-mirror_11
+  - first:
+      213: 5852955425172928104
+    second: Serra-mirror_12
+  - first:
+      213: -750283886720169459
+    second: Serra-mirror_13
+  - first:
+      213: -975220294654371616
+    second: Serra-mirror_14
+  - first:
+      213: 3127385009761382892
+    second: Serra-mirror_15
+  - first:
+      213: -5874047554221810903
+    second: Serra-mirror_16
+  - first:
+      213: -284168491119819009
+    second: Serra-mirror_17
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Windows Store Apps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Serra-mirror_0
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 290.25
+        width: 100
+        height: 96.75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2bbcb66b3bb2f7420800000000000000
+      internalID: 2629868758267317170
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Serra-mirror_1
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 290.25
+        width: 100
+        height: 96.75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e606e7b3ec82e6f80800000000000000
+      internalID: -8111501012621172626
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Serra-mirror_2
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 290.25
+        width: 100
+        height: 96.75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c98fb32075abf44a0800000000000000
+      internalID: -6606857245466822500
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Serra-mirror_3
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 194.25
+        width: 100
+        height: 96.75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eacf25f501b1b9110800000000000000
+      internalID: 1268637477167627438
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Serra-mirror_4
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 194.25
+        width: 100
+        height: 96.75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 50cfe3bc268f45d90800000000000000
+      internalID: -7109784808510784507
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Serra-mirror_5
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 194.25
+        width: 100
+        height: 96.75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 679a2f9efee1efd70800000000000000
+      internalID: 9078727914596510070
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Serra-mirror_6
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 194.25
+        width: 100
+        height: 96.75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c1484a987225b930800000000000000
+      internalID: 4158267732326367682
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Serra-mirror_7
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 194.25
+        width: 100
+        height: 96.75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 91e7c332c037d36d0800000000000000
+      internalID: -3009122480045654503
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Serra-mirror_8
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 98.25
+        width: 100
+        height: 96.75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f6dee980757dc440800000000000000
+      internalID: 4957747891015702263
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Serra-mirror_9
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 98.25
+        width: 100
+        height: 96.75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d203b3051af7fc90800000000000000
+      internalID: -7135960116381941037
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Serra-mirror_10
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 98.25
+        width: 100
+        height: 96.75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dbafae4b4a1d9c040800000000000000
+      internalID: 4668492994086369981
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Serra-mirror_11
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 98.25
+        width: 100
+        height: 96.75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 924b18680b3946910800000000000000
+      internalID: 1829749734999438377
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Serra-mirror_12
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 98.25
+        width: 100
+        height: 96.75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 866b0abe2ffd93150800000000000000
+      internalID: 5852955425172928104
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Serra-mirror_13
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2.25
+        width: 100
+        height: 96.75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d0a485bb7c47695f0800000000000000
+      internalID: -750283886720169459
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Serra-mirror_14
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 2.25
+        width: 100
+        height: 96.75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e8df571f425772f0800000000000000
+      internalID: -975220294654371616
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Serra-mirror_15
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 2.25
+        width: 100
+        height: 96.75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce175b6c814b66b20800000000000000
+      internalID: 3127385009761382892
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Serra-mirror_16
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 2.25
+        width: 100
+        height: 96.75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 92b5bd81fd03b7ea0800000000000000
+      internalID: -5874047554221810903
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Serra-mirror_17
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 2.25
+        width: 100
+        height: 96.75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff6c17e434e6e0cf0800000000000000
+      internalID: -284168491119819009
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,562 @@
+fileFormatVersion: 2
+guid: e2b97d5dab32f1243a12ef9d5f08f38c
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 6504780476288621940
+    second: Serra_0
+  - first:
+      213: -3214400716071532806
+    second: Serra_1
+  - first:
+      213: 1269118984289064542
+    second: Serra_2
+  - first:
+      213: -7073758640614045780
+    second: Serra_3
+  - first:
+      213: -5534914340991969806
+    second: Serra_4
+  - first:
+      213: -2223535374044813137
+    second: Serra_5
+  - first:
+      213: 3753865086507684296
+    second: Serra_6
+  - first:
+      213: 4577661134048921473
+    second: Serra_7
+  - first:
+      213: -3418654130527965907
+    second: Serra_8
+  - first:
+      213: -4018014692958732802
+    second: Serra_9
+  - first:
+      213: -6701741673624144978
+    second: Serra_10
+  - first:
+      213: 1262439920320763936
+    second: Serra_11
+  - first:
+      213: -2029720676455204236
+    second: Serra_12
+  - first:
+      213: 5243026275490538891
+    second: Serra_13
+  - first:
+      213: 98798283323695609
+    second: Serra_14
+  - first:
+      213: 1820299477768923743
+    second: Serra_15
+  - first:
+      213: -133605160520890789
+    second: Serra_16
+  - first:
+      213: 1524842664369948300
+    second: Serra_17
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Windows Store Apps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Serra_0
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 290
+        width: 100
+        height: 97
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 47d541f116f954a50800000000000000
+      internalID: 6504780476288621940
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Serra_1
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 290.25
+        width: 100
+        height: 96.75
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af68bc054972463d0800000000000000
+      internalID: -3214400716071532806
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Serra_2
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 290.25
+        width: 100
+        height: 96.75
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e56114cfdf0dc9110800000000000000
+      internalID: 1269118984289064542
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Serra_3
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 194.25
+        width: 100
+        height: 96.75
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca78957aef5f4dd90800000000000000
+      internalID: -7073758640614045780
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Serra_4
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 194.25
+        width: 100
+        height: 96.75
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f555fa6bb80033b0800000000000000
+      internalID: -5534914340991969806
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Serra_5
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 194.25
+        width: 100
+        height: 96.75
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa82b8cab5a6421e0800000000000000
+      internalID: -2223535374044813137
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Serra_6
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 194.25
+        width: 100
+        height: 96.75
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c118084868681430800000000000000
+      internalID: 3753865086507684296
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Serra_7
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 194.25
+        width: 100
+        height: 96.75
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 18709154c8e178f30800000000000000
+      internalID: 4577661134048921473
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Serra_8
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 98.25
+        width: 100
+        height: 96.75
+      alignment: 9
+      pivot: {x: 0.4815451, y: 0.49999985}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d2d65fb5e208e80d0800000000000000
+      internalID: -3418654130527965907
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Serra_9
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 98
+        width: 100
+        height: 97
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: efdf4e3dce42d38c0800000000000000
+      internalID: -4018014692958732802
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Serra_10
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 98.25
+        width: 100
+        height: 96.75
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea373378471aef2a0800000000000000
+      internalID: -6701741673624144978
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Serra_11
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 98.25
+        width: 100
+        height: 96.75
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 028ddf83b66158110800000000000000
+      internalID: 1262439920320763936
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Serra_12
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 98.25
+        width: 100
+        height: 96.75
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 47a3f967ccbf4d3e0800000000000000
+      internalID: -2029720676455204236
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Serra_13
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2.25
+        width: 100
+        height: 96.75
+      alignment: 9
+      pivot: {x: 0.4815451, y: 0.5286122}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b8527aa6e98f2c840800000000000000
+      internalID: 5243026275490538891
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Serra_14
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 2.25
+        width: 100
+        height: 96.75
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f16de5e3800f5100800000000000000
+      internalID: 98798283323695609
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Serra_15
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 2.25
+        width: 100
+        height: 96.75
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f5aee3d0bb0034910800000000000000
+      internalID: 1820299477768923743
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Serra_16
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 2.25
+        width: 100
+        height: 96.75
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b564efa70d6552ef0800000000000000
+      internalID: -133605160520890789
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Serra_17
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 2.25
+        width: 100
+        height: 96.75
+      alignment: 9
+      pivot: {x: 0.45085692, y: 0.3074347}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c8681240354592510800000000000000
+      internalID: 1524842664369948300
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

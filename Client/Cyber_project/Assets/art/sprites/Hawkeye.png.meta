@@ -1,0 +1,562 @@
+fileFormatVersion: 2
+guid: c2e8ed9efa2d1234fbf7df0534cdf0f1
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 8870309930440929454
+    second: Hawkeye_0
+  - first:
+      213: -5877777274812696438
+    second: Hawkeye_1
+  - first:
+      213: 920808139601184221
+    second: Hawkeye_2
+  - first:
+      213: 7784706560540521739
+    second: Hawkeye_3
+  - first:
+      213: -8607548012012589438
+    second: Hawkeye_4
+  - first:
+      213: 8983066723472281358
+    second: Hawkeye_5
+  - first:
+      213: -6397713504373936244
+    second: Hawkeye_6
+  - first:
+      213: 5102587867784287520
+    second: Hawkeye_7
+  - first:
+      213: 2225397284056145945
+    second: Hawkeye_8
+  - first:
+      213: -382712752517129012
+    second: Hawkeye_9
+  - first:
+      213: -5842234811050742147
+    second: Hawkeye_10
+  - first:
+      213: 4975977478512958521
+    second: Hawkeye_11
+  - first:
+      213: -8214004820445556345
+    second: Hawkeye_12
+  - first:
+      213: -2403155696475162402
+    second: Hawkeye_13
+  - first:
+      213: 6595642131123813922
+    second: Hawkeye_14
+  - first:
+      213: 1134154301570152055
+    second: Hawkeye_15
+  - first:
+      213: -3216495159345741209
+    second: Hawkeye_16
+  - first:
+      213: 2488456319352858625
+    second: Hawkeye_17
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Windows Store Apps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Hawkeye_0
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 291
+        width: 99.6
+        height: 97
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea03d8382eba91b70800000000000000
+      internalID: 8870309930440929454
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hawkeye_1
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 291
+        width: 99.6
+        height: 97
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a88fce9d5b0fd6ea0800000000000000
+      internalID: -5877777274812696438
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hawkeye_2
+      rect:
+        serializedVersion: 2
+        x: 297
+        y: 291
+        width: 99.6
+        height: 97
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd58733df1e57cc00800000000000000
+      internalID: 920808139601184221
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hawkeye_3
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 194
+        width: 100
+        height: 97
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b05bba52f55d80c60800000000000000
+      internalID: 7784706560540521739
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hawkeye_4
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 194
+        width: 99.6
+        height: 97
+      alignment: 9
+      pivot: {x: 0.5000002, y: 0.5095375}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 28eaed410b8db8880800000000000000
+      internalID: -8607548012012589438
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hawkeye_5
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 194
+        width: 99.6
+        height: 97
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e0f823637934aac70800000000000000
+      internalID: 8983066723472281358
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hawkeye_6
+      rect:
+        serializedVersion: 2
+        x: 297
+        y: 194
+        width: 99.6
+        height: 97
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c8f621dd671c637a0800000000000000
+      internalID: -6397713504373936244
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hawkeye_7
+      rect:
+        serializedVersion: 2
+        x: 396
+        y: 194
+        width: 99.6
+        height: 97
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 025108e81a800d640800000000000000
+      internalID: 5102587867784287520
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hawkeye_8
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 97
+        width: 99.6
+        height: 97
+      alignment: 9
+      pivot: {x: 0.49999997, y: 0.5190749}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 91029480a0332ee10800000000000000
+      internalID: 2225397284056145945
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hawkeye_9
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 97
+        width: 99.6
+        height: 97
+      alignment: 9
+      pivot: {x: 0.5000002, y: 0.5095374}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ccc543f77c450baf0800000000000000
+      internalID: -382712752517129012
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hawkeye_10
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 97
+        width: 99.6
+        height: 97
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d7e26e094663ceea0800000000000000
+      internalID: -5842234811050742147
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hawkeye_11
+      rect:
+        serializedVersion: 2
+        x: 297
+        y: 97
+        width: 99.6
+        height: 97
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 93cdb1127293e0540800000000000000
+      internalID: 4975977478512958521
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hawkeye_12
+      rect:
+        serializedVersion: 2
+        x: 396
+        y: 97
+        width: 99.6
+        height: 97
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7811ffda22ef10e80800000000000000
+      internalID: -8214004820445556345
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hawkeye_13
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 100
+        height: 97
+      alignment: 9
+      pivot: {x: 0.49999997, y: 0.5190748}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed834a360a646aed0800000000000000
+      internalID: -2403155696475162402
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hawkeye_14
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 0
+        width: 99.6
+        height: 97
+      alignment: 9
+      pivot: {x: 0.5000002, y: 0.5190748}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 22e3c33b29d688b50800000000000000
+      internalID: 6595642131123813922
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hawkeye_15
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 0
+        width: 99.6
+        height: 97
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 776f19904535dbf00800000000000000
+      internalID: 1134154301570152055
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hawkeye_16
+      rect:
+        serializedVersion: 2
+        x: 297
+        y: 0
+        width: 99.6
+        height: 97
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7620f6db1b6bc53d0800000000000000
+      internalID: -3216495159345741209
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hawkeye_17
+      rect:
+        serializedVersion: 2
+        x: 396
+        y: 0
+        width: 99.6
+        height: 97
+      alignment: 9
+      pivot: {x: 0.3875126, y: 0.6505673}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1086a1a86d5c88220800000000000000
+      internalID: 2488456319352858625
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

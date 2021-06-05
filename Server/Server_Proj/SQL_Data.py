@@ -22,7 +22,7 @@ class Users:
         self.__c4 = c4
         self.__c5 = c5
         self.__online = online
-        conn = sqlite3.connect('test.db')
+        conn = sqlite3.connect('Database.db')
         query_str = "CREATE TABLE IF NOT EXISTS " + tablename + "(" + self.__userId + " " + \
                     " INTEGER PRIMARY KEY AUTOINCREMENT UNIQUE,"
         query_str += " " + self.__Email + " TEXT    NOT NULL    UNIQUE ,"
@@ -47,7 +47,7 @@ class Users:
 
     def insert_user(self, email, username, password):
         print("insert")
-        conn = sqlite3.connect('test.db')
+        conn = sqlite3.connect('Database.db')
         insert_query = "INSERT INTO " + self.__tablename + " (" + self.__Email + "," + self.__password + "," + self.__username \
                        + "," +self.__win + "," +self.__lose + "," +self.__c1 + "," +self.__c2 + "," +self.__c3 + "," \
                        +self.__c4 + "," +self.__c5 + "," + self.__online + ") VALUES " + "(" + "'" + email + "'"+ "," + "'" + password \
@@ -59,7 +59,7 @@ class Users:
         print("Record created successfully")
 
     def delete_user(self, id):
-        conn = sqlite3.connect('test.db')
+        conn = sqlite3.connect('Database.db')
 
         delete_query = "DELETE FROM " + self.get_table_name() + " WHERE " + self.__userId+ " = " + str(id)
         print(delete_query)
@@ -70,7 +70,7 @@ class Users:
 
     def getwin(self, username):
         print("win")
-        conn = sqlite3.connect('test.db')
+        conn = sqlite3.connect('Database.db')
         str1 = "select * from users;"
         cursor = conn.execute(str1)
         for row in cursor:
@@ -82,7 +82,7 @@ class Users:
 
     def getlose(self, username):
         print("lose")
-        conn = sqlite3.connect('test.db')
+        conn = sqlite3.connect('Database.db')
         str1 = "select * from users;"
         cursor = conn.execute(str1)
         for row in cursor:
@@ -95,7 +95,7 @@ class Users:
 
     def getcharacters(self,username):
         print("get_character")
-        conn = sqlite3.connect('test.db')
+        conn = sqlite3.connect('Database.db')
         str1 = "select * from users;"
         list_User = []
         cursor = conn.execute(str1)
@@ -111,7 +111,7 @@ class Users:
         return list_User
 
     def Update_user_username(self, id1, username):
-        conn = sqlite3.connect('test.db')
+        conn = sqlite3.connect('Database.db')
 
         update_query = "UPDATE " + self.get_table_name() + " SET "\
                        + self.__password + " = " + "\' " +str(username)+" \' " + " WHERE " + self.__userId + " = " + str(id1)+";"
@@ -123,21 +123,21 @@ class Users:
 
     def Update_user_characters(self, username, c1, c2, c3, c4, c5):
         print("character")
-        conn = sqlite3.connect('test.db')
+        conn = sqlite3.connect('Database.db')
         conn.execute("UPDATE users SET c1=?, c2=?, c3=?, c4=?, c5=? WHERE username=?", (c1, c2, c3, c4, c5, username))
         conn.commit()
         conn.close()
         print("record has been updated")
 
     def Update_user_online(self, username, online):
-        conn = sqlite3.connect('test.db')
+        conn = sqlite3.connect('Database.db')
         conn.execute("UPDATE users SET online = ? WHERE username = ?", (online, username))
         conn.commit()
         conn.close()
         print("record has been updated")
 
     def Update_user_password(self, id1, password):
-        conn = sqlite3.connect('test.db')
+        conn = sqlite3.connect('Database.db')
 
         update_query = "UPDATE " + self.get_table_name() + " SET "\
                        + self.__username + " = " + "\' " +str(password)+" \' " + " WHERE " + self.__userId + " = " + str(id1)+";"
@@ -146,43 +146,58 @@ class Users:
         conn.close()
         print("record has been updated")
 
+    def Update_user_win(self,username):
+        conn = sqlite3.connect('Database.db')
+        conn.execute("UPDATE users SET win = ? WHERE username = ?", (str(int(self.getwin(username))+1), username))
+        conn.commit()
+        conn.close()
+        print("record has been updated")
 
+    def Update_user_lose(self,username):
+        conn = sqlite3.connect('Database.db')
+        conn.execute("UPDATE users SET lose = ? WHERE username = ?", (str(int(self.getlose(username)) + 1), username))
+        conn.commit()
+        conn.close()
+        print("record has been updated")
 
     def select_user_by_User(self, email, username, password, access):
         print("select")
-        conn = sqlite3.connect('test.db')
+        conn = sqlite3.connect('Database.db')
         str1 = "select * from users;"
         list_User = []
         cursor = conn.execute(str1)
-        for row in cursor:
-            list_User.append(row[0])
-            list_User.append(row[1])
-            list_User.append(row[2])
-            list_User.append(row[3])
-            list_User.append(row[11])
-        if (access == 2):
-            if (email in list_User):
-                return True
-            elif(password == username):
-                return True
-            elif (username in list_User):
-                return True
-            elif (len(username) < 5):
-                return True
-            elif (len(username) > 13):
-                return True
-            elif (username.find(" ") != -1):
-                return True
-        else:
-            print(str(list_User[list_User.index(username)-2]) == email)
-            if(str(list_User[list_User.index(username)+1]) == "0" and email == str(list_User[list_User.index(username)-2])
-                    and username in list_User and list_User[list_User.index(username)-1] == password):
-                print("YAY")
-                return True
-            print("No")
+        try:
+            for row in cursor:
+                list_User.append(row[0])
+                list_User.append(row[1])
+                list_User.append(row[2])
+                list_User.append(row[3])
+                list_User.append(row[11])
+            if (access == 2):
+                if (email in list_User):
+                    return True
+                elif(password == username):
+                    return True
+                elif (username in list_User):
+                    return True
+                elif (len(username) < 5):
+                    return True
+                elif (len(username) > 13):
+                    return True
+                elif (username.find(" ") != -1):
+                    return True
+            else:
+                print(str(list_User[list_User.index(username)-2]) == email)
+                if(str(list_User[list_User.index(username)+1]) == "0" and email == str(list_User[list_User.index(username)-2])
+                        and username in list_User and list_User[list_User.index(username)-1] == password):
+                    print("YAY")
+                    return True
+                print("No")
+                return False
+        except:
             return False
 
 
 
-u = Users()
 
+u = Users()

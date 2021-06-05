@@ -9,31 +9,41 @@ using System.Text;
 
 public class Client : MonoBehaviour
 {
-    public static string IPString { get; set; } = "127.0.0.1";
+    //public static string IPString { get; set; } = "127.0.0.1";
     public GameObject error;
+    public GameObject connection_made;
     // Main Method 
-    private void Start()
+    private void Update()
     {
-        ExecuteClient(error);
+        if(VariableStorage.IP != "")
+            ExecuteClient(error,connection_made);
     }
 
     // ExecuteClient() Method 
-    static void ExecuteClient(GameObject error)
+    static void ExecuteClient(GameObject error, GameObject connection_made)
     {
         try
         {
             if (VariableStorage.User == false)
             {
+                Debug.Log("1");
                 // Establish the remote endpoint  
                 // for the socket. This example  
-                // uses port 11111 on the local  
+                // uses port 4242 on the local  
                 // computer. 
+                //IPHostEntry ipHost = Dns.GetHostEntry(Dns.GetHostName());
+                //IPAddress ipAddr = ipHost.AddressList[0];
+                //Debug.Log(ipHost.AddressList[0]);
+                //IPEndPoint localEndPoint = new IPEndPoint(ipAddr, 4242);
                 IPHostEntry ipHost = Dns.GetHostEntry(Dns.GetHostName());
                 //IPAddress ipAddr = ipHost.AddressList[0];
-                IPEndPoint localEndPoint = new IPEndPoint(IPAddress.Parse(IPString), 11111);
-
+                IPEndPoint localEndPoint = new IPEndPoint(IPAddress.Parse(VariableStorage.IP), 4242);
+                VariableStorage.IP = "";
                 // Creation TCP/IP Socket using  
                 // Socket Class Costructor 
+                //VariableStorage.sender = new Socket(ipAddr.AddressFamily,
+                //   SocketType.Stream, ProtocolType.Tcp);
+
                 VariableStorage.sender = new Socket(AddressFamily.InterNetwork,
                            SocketType.Stream, ProtocolType.Tcp);
 
@@ -58,6 +68,9 @@ public class Client : MonoBehaviour
                           Encoding.ASCII.GetString(messageReceived,
                                                      0, byteRecv));
                 VariableStorage.User = true;
+                VariableStorage.IP = "";
+                VariableStorage.destroyed = true;
+                connection_made.SetActive(true);
             }
             // Close Socket using  
             // the method Close() 

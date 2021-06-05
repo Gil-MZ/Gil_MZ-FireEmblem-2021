@@ -9,7 +9,13 @@ public class VariableStorage : MonoBehaviour
 {
     public static Socket sender;
     public static bool datasend = false;
+    public static bool destroyed = false;
     public static string data = "";
+    public static bool attacking = false;
+    public static GameObject attacker;
+    public static string attacker_name = "";
+    public static string getting_attacked = "";
+    public static string attack = "";
     public static string player = "0";
     public static string player2 = "0";
     public static int Soldiers_count = 0;
@@ -18,6 +24,8 @@ public class VariableStorage : MonoBehaviour
     public static bool User = false;
     public static bool error = false;
     public static bool error1 = false;
+    public static string IP = "";
+    public static string enemy_name = "";
     public static string username;
     public static string password;
     public static string email;

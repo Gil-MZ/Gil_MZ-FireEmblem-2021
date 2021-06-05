@@ -4,6 +4,7 @@ using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.SceneManagement;
 using System;
+using System.Threading;
 using System.Net;
 using System.Net.Sockets;
 using System.Text;
@@ -23,36 +24,24 @@ public class Client_Register : MonoBehaviour
         int byteSent = VariableStorage.sender.Send(messageSent);
 
         Debug.Log(byteSent);
+        Thread.Sleep(200);
 
         byte [] messageSent1 = Encoding.ASCII.GetBytes(password);
         byteSent = VariableStorage.sender.Send(messageSent1);
 
         Debug.Log(byteSent);
-
+        Thread.Sleep(200);
         byte [] messageSent2 = Encoding.ASCII.GetBytes(email);
         byteSent = VariableStorage.sender.Send(messageSent2);
 
         Debug.Log(byteSent);
 
         byte[] messageReceived = new byte[1024];
-
         int byteRecv = VariableStorage.sender.Receive(messageReceived);
-        Debug.Log("Message from Server -> " +
-                  Encoding.ASCII.GetString(messageReceived,
-                                             0, byteRecv));
-
-        if(Encoding.ASCII.GetString(messageReceived,0, byteRecv) == "Not valid" ||
-            Encoding.ASCII.GetString(messageReceived, 0, byteRecv) == null)
-        {
-            VariableStorage.error = true;
-        }
-
+        if (Encoding.ASCII.GetString(messageReceived, 0, byteRecv) == "valid")
+            SceneManager.LoadScene(8);
         else
-        {
-            VariableStorage.error = false;
-            Debug.Log(Encoding.ASCII.GetString(messageReceived, 0, byteRecv));
-            SceneManager.LoadScene(0);
-        }
+            VariableStorage.error1 = true;
         
 
     }

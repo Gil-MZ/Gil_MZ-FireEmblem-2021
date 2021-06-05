@@ -1,0 +1,2386 @@
+fileFormatVersion: 2
+guid: 79d65090d22843f478337703bdd17939
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -6351588427696502807
+    second: Alfonse2_0
+  - first:
+      213: 5859220247747295571
+    second: Alfonse2_1
+  - first:
+      213: -6776125754046849093
+    second: Alfonse2_2
+  - first:
+      213: 7454242671632883679
+    second: Alfonse2_3
+  - first:
+      213: -1104559422725725400
+    second: Alfonse2_4
+  - first:
+      213: -899772212007849064
+    second: Alfonse2_5
+  - first:
+      213: -277959333511666401
+    second: Alfonse2_6
+  - first:
+      213: -7409952306396837398
+    second: Alfonse2_7
+  - first:
+      213: 6971460854196246447
+    second: Alfonse2_8
+  - first:
+      213: 4962949784566192809
+    second: Alfonse2_9
+  - first:
+      213: 5800280983521202598
+    second: Alfonse2_10
+  - first:
+      213: -1465233054799112212
+    second: Alfonse2_11
+  - first:
+      213: 4721643515608181165
+    second: Alfonse2_12
+  - first:
+      213: -699422268798974142
+    second: Alfonse2_13
+  - first:
+      213: -2819761523953288874
+    second: Alfonse2_14
+  - first:
+      213: -5576749364675691064
+    second: Alfonse2_15
+  - first:
+      213: -3843484703726595780
+    second: Alfonse2_16
+  - first:
+      213: 5782405494826163608
+    second: Alfonse2_17
+  - first:
+      213: 32646473693813414
+    second: Alfonse2_18
+  - first:
+      213: -1617648677829383156
+    second: Alfonse2_19
+  - first:
+      213: -850442722118347915
+    second: Alfonse2_20
+  - first:
+      213: -8729138525885734671
+    second: Alfonse2_21
+  - first:
+      213: 8734450477342291938
+    second: Alfonse2_22
+  - first:
+      213: -5230402393419903888
+    second: Alfonse2_23
+  - first:
+      213: -4416007964829750194
+    second: Alfonse2_24
+  - first:
+      213: 2673095392858132669
+    second: Alfonse2_25
+  - first:
+      213: -6094020200414851842
+    second: Alfonse2_26
+  - first:
+      213: -2833179730299875311
+    second: Alfonse2_27
+  - first:
+      213: 807539775499739681
+    second: Alfonse2_28
+  - first:
+      213: 5645822761892340768
+    second: Alfonse2_29
+  - first:
+      213: 7717160408662140615
+    second: Alfonse2_30
+  - first:
+      213: -2198558922317981395
+    second: Alfonse2_31
+  - first:
+      213: -4842763526954567310
+    second: Alfonse2_32
+  - first:
+      213: -8246429845389862719
+    second: Alfonse2_33
+  - first:
+      213: 4281582865658343068
+    second: Alfonse2_34
+  - first:
+      213: 1928124963181955702
+    second: Alfonse2_35
+  - first:
+      213: 722650689761994381
+    second: Alfonse2_36
+  - first:
+      213: -7935604140478553000
+    second: Alfonse2_37
+  - first:
+      213: 6875901484351226606
+    second: Alfonse2_38
+  - first:
+      213: -8885980284366349844
+    second: Alfonse2_39
+  - first:
+      213: -744313863237937109
+    second: Alfonse2_40
+  - first:
+      213: -5457007683855687620
+    second: Alfonse2_41
+  - first:
+      213: 1827511874203131961
+    second: Alfonse2_42
+  - first:
+      213: 1705352298124730156
+    second: Alfonse2_43
+  - first:
+      213: 4476013227520370914
+    second: Alfonse2_44
+  - first:
+      213: 249539557976673678
+    second: Alfonse2_45
+  - first:
+      213: 7601232019130673631
+    second: Alfonse2_46
+  - first:
+      213: -2768032928405631077
+    second: Alfonse2_47
+  - first:
+      213: -1271519731880192674
+    second: Alfonse2_48
+  - first:
+      213: 2792809633975754274
+    second: Alfonse2_49
+  - first:
+      213: 4909789705218197562
+    second: Alfonse2_50
+  - first:
+      213: 2033325394624498901
+    second: Alfonse2_51
+  - first:
+      213: -178538683090727069
+    second: Alfonse2_52
+  - first:
+      213: -786984432923097510
+    second: Alfonse2_53
+  - first:
+      213: -1979247670968714856
+    second: Alfonse2_54
+  - first:
+      213: -6378117994419161891
+    second: Alfonse2_55
+  - first:
+      213: 3370809787939538363
+    second: Alfonse2_56
+  - first:
+      213: -5826681900836810036
+    second: Alfonse2_57
+  - first:
+      213: -319492249172590128
+    second: Alfonse2_58
+  - first:
+      213: 4653156586653815030
+    second: Alfonse2_59
+  - first:
+      213: -4418667075851807646
+    second: Alfonse2_60
+  - first:
+      213: -5793165241749006308
+    second: Alfonse2_61
+  - first:
+      213: 4028943020804150439
+    second: Alfonse2_62
+  - first:
+      213: -7834821636234283701
+    second: Alfonse2_63
+  - first:
+      213: -528937427536899065
+    second: Alfonse2_64
+  - first:
+      213: -4176217302561858694
+    second: Alfonse2_65
+  - first:
+      213: 3391245694496637363
+    second: Alfonse2_66
+  - first:
+      213: -2357790983808562916
+    second: Alfonse2_67
+  - first:
+      213: -1933109959822477249
+    second: Alfonse2_68
+  - first:
+      213: 4967018431404711001
+    second: Alfonse2_69
+  - first:
+      213: 2604892691340358248
+    second: Alfonse2_70
+  - first:
+      213: 4267629470271018191
+    second: Alfonse2_71
+  - first:
+      213: 1484251976537609071
+    second: Alfonse2_72
+  - first:
+      213: -3117250640833893010
+    second: Alfonse2_73
+  - first:
+      213: -4510603456972605251
+    second: Alfonse2_74
+  - first:
+      213: 4869934964676966674
+    second: Alfonse2_75
+  - first:
+      213: 5043272300129229415
+    second: Alfonse2_76
+  - first:
+      213: 2617404071149171712
+    second: Alfonse2_77
+  - first:
+      213: 7865160605280845863
+    second: Alfonse2_78
+  - first:
+      213: -6469663312207080404
+    second: Alfonse2_79
+  - first:
+      213: -1676860349824048933
+    second: Alfonse2_80
+  - first:
+      213: -7512592398321064564
+    second: Alfonse2_81
+  - first:
+      213: 4143562797800568383
+    second: Alfonse2_82
+  - first:
+      213: -4754558826840040098
+    second: Alfonse2_83
+  - first:
+      213: 5262702346777286769
+    second: Alfonse2_84
+  - first:
+      213: -7760781375974669162
+    second: Alfonse2_85
+  - first:
+      213: 1263018540112158000
+    second: Alfonse2_86
+  - first:
+      213: 8135056620674895346
+    second: Alfonse2_87
+  - first:
+      213: 6016017521213858311
+    second: Alfonse2_88
+  - first:
+      213: -5455743211438034575
+    second: Alfonse2_89
+  - first:
+      213: 4787261960241179260
+    second: Alfonse2_90
+  - first:
+      213: -7133972677834020545
+    second: Alfonse2_91
+  - first:
+      213: -2755254072721923245
+    second: Alfonse2_92
+  - first:
+      213: -368300595028053215
+    second: Alfonse2_93
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Windows Store Apps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Alfonse2_0
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 750
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e70ba72aff9ad7a0800000000000000
+      internalID: -6351588427696502807
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Alfonse2_1
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 750
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 359f0c795c1205150800000000000000
+      internalID: 5859220247747295571
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Alfonse2_2
+      rect:
+        serializedVersion: 2
+        x: 25
+        y: 750
+        width: 5
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bbf59a4378d56f1a0800000000000000
+      internalID: -6776125754046849093
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Alfonse2_3
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 750
+        width: 5
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fdf9c30373ac27760800000000000000
+      internalID: 7454242671632883679
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Alfonse2_4
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 750
+        width: 4
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8236f17ae01dba0f0800000000000000
+      internalID: -1104559422725725400
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Alfonse2_5
+      rect:
+        serializedVersion: 2
+        x: 45
+        y: 750
+        width: 9
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 893318cb0fd5383f0800000000000000
+      internalID: -899772212007849064
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Alfonse2_6
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 750
+        width: 4
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f156808757d742cf0800000000000000
+      internalID: -277959333511666401
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Alfonse2_7
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 750
+        width: 5
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae941ae03af8a2990800000000000000
+      internalID: -7409952306396837398
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Alfonse2_8
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 750
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa798e3e5ba9fb060800000000000000
+      internalID: 6971460854196246447
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Alfonse2_9
+      rect:
+        serializedVersion: 2
+        x: 76
+        y: 748
+        width: 5
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9aa5b23c880ffd440800000000000000
+      internalID: 4962949784566192809
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Alfonse2_10
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 750
+        width: 5
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a11c34c2dcbe7050800000000000000
+      internalID: 5800280983521202598
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Alfonse2_11
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 750
+        width: 9
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce7d98fbc427aabe0800000000000000
+      internalID: -1465233054799112212
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Alfonse2_12
+      rect:
+        serializedVersion: 2
+        x: 354
+        y: 728
+        width: 22
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da92ad7d2c5a68140800000000000000
+      internalID: 4721643515608181165
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Alfonse2_13
+      rect:
+        serializedVersion: 2
+        x: 375
+        y: 743
+        width: 28
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2474d38f6272b46f0800000000000000
+      internalID: -699422268798974142
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Alfonse2_14
+      rect:
+        serializedVersion: 2
+        x: 377
+        y: 730
+        width: 6
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 659337d65d13ed8d0800000000000000
+      internalID: -2819761523953288874
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Alfonse2_15
+      rect:
+        serializedVersion: 2
+        x: 391
+        y: 730
+        width: 22
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8cdbe1deff76b92b0800000000000000
+      internalID: -5576749364675691064
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Alfonse2_16
+      rect:
+        serializedVersion: 2
+        x: 409
+        y: 743
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c319abe860339aac0800000000000000
+      internalID: -3843484703726595780
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Alfonse2_17
+      rect:
+        serializedVersion: 2
+        x: 412
+        y: 735
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 89d516a392b3f3050800000000000000
+      internalID: 5782405494826163608
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Alfonse2_18
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 686
+        width: 63
+        height: 47
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6aa50bb7bcbf37000800000000000000
+      internalID: 32646473693813414
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Alfonse2_19
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 684
+        width: 65
+        height: 50
+      alignment: 9
+      pivot: {x: 1.0769231, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c0c69922915fc89e0800000000000000
+      internalID: -1617648677829383156
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Alfonse2_20
+      rect:
+        serializedVersion: 2
+        x: 167
+        y: 682
+        width: 65
+        height: 50
+      alignment: 9
+      pivot: {x: 0.9230769, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 573d15e99de9234f0800000000000000
+      internalID: -850442722118347915
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Alfonse2_21
+      rect:
+        serializedVersion: 2
+        x: 251
+        y: 682
+        width: 81
+        height: 47
+      alignment: 9
+      pivot: {x: 1.2345679, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f0676972cedbd680800000000000000
+      internalID: -8729138525885734671
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Alfonse2_22
+      rect:
+        serializedVersion: 2
+        x: 351
+        y: 681
+        width: 68
+        height: 78
+      alignment: 9
+      pivot: {x: 0.88235295, y: 0.30128205}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e77a3a9e60073970800000000000000
+      internalID: 8734450477342291938
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Alfonse2_23
+      rect:
+        serializedVersion: 2
+        x: 364
+        y: 725
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 07c8adb2cb0e967b0800000000000000
+      internalID: -5230402393419903888
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Alfonse2_24
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 603
+        width: 64
+        height: 48
+      alignment: 9
+      pivot: {x: 0.703125, y: 0.48958334}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e4ce60b272037b2c0800000000000000
+      internalID: -4416007964829750194
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Alfonse2_25
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 609
+        width: 76
+        height: 46
+      alignment: 9
+      pivot: {x: 0.5131579, y: 0.51086956}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db0da0ed81eb81520800000000000000
+      internalID: 2673095392858132669
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Alfonse2_26
+      rect:
+        serializedVersion: 2
+        x: 185
+        y: 609
+        width: 70
+        height: 47
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: efcc73c4ae0bd6ba0800000000000000
+      internalID: -6094020200414851842
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Alfonse2_27
+      rect:
+        serializedVersion: 2
+        x: 268
+        y: 607
+        width: 70
+        height: 47
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 11093aecb068ea8d0800000000000000
+      internalID: -2833179730299875311
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Alfonse2_28
+      rect:
+        serializedVersion: 2
+        x: 349
+        y: 606
+        width: 58
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 12229a4b525f43b00800000000000000
+      internalID: 807539775499739681
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Alfonse2_29
+      rect:
+        serializedVersion: 2
+        x: 420
+        y: 606
+        width: 64
+        height: 47
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 024686b93edf95e40800000000000000
+      internalID: 5645822761892340768
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Alfonse2_30
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 539
+        width: 60
+        height: 47
+      alignment: 9
+      pivot: {x: 0.46666667, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c6e301218cd81b60800000000000000
+      internalID: 7717160408662140615
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Alfonse2_31
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 543
+        width: 64
+        height: 45
+      alignment: 9
+      pivot: {x: 0.40625, y: 0.5222222}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d2998710f462d71e0800000000000000
+      internalID: -2198558922317981395
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Alfonse2_32
+      rect:
+        serializedVersion: 2
+        x: 181
+        y: 545
+        width: 64
+        height: 47
+      alignment: 9
+      pivot: {x: 0.390625, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 279b7a4fa3c0bccb0800000000000000
+      internalID: -4842763526954567310
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Alfonse2_33
+      rect:
+        serializedVersion: 2
+        x: 363
+        y: 468
+        width: 44
+        height: 69
+      alignment: 9
+      pivot: {x: 0.65909094, y: 0.34057972}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c89b504fbbce8d80800000000000000
+      internalID: -8246429845389862719
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Alfonse2_34
+      rect:
+        serializedVersion: 2
+        x: 397
+        y: 528
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c9ee6f77eec3b6b30800000000000000
+      internalID: 4281582865658343068
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Alfonse2_35
+      rect:
+        serializedVersion: 2
+        x: 425
+        y: 463
+        width: 59
+        height: 67
+      alignment: 9
+      pivot: {x: 0.4915254, y: 0.41044775}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 67a0609307312ca10800000000000000
+      internalID: 1928124963181955702
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Alfonse2_36
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 519
+        width: 10
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d8664fb39fe570a00800000000000000
+      internalID: 722650689761994381
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Alfonse2_37
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 519
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 85428a034121fd190800000000000000
+      internalID: -7935604140478553000
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Alfonse2_38
+      rect:
+        serializedVersion: 2
+        x: 29
+        y: 519
+        width: 5
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee2065d48fb1c6f50800000000000000
+      internalID: 6875901484351226606
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Alfonse2_39
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 519
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce91835e208aea480800000000000000
+      internalID: -8885980284366349844
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Alfonse2_40
+      rect:
+        serializedVersion: 2
+        x: 46
+        y: 519
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b28dd442c7aaba5f0800000000000000
+      internalID: -744313863237937109
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Alfonse2_41
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 519
+        width: 4
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c30643b8c60d444b0800000000000000
+      internalID: -5457007683855687620
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Alfonse2_42
+      rect:
+        serializedVersion: 2
+        x: 61
+        y: 519
+        width: 9
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 930afa4fd50ac5910800000000000000
+      internalID: 1827511874203131961
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Alfonse2_43
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 519
+        width: 4
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c2fde9a31e0aaa710800000000000000
+      internalID: 1705352298124730156
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Alfonse2_44
+      rect:
+        serializedVersion: 2
+        x: 76
+        y: 519
+        width: 5
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e82d44c05efd1e30800000000000000
+      internalID: 4476013227520370914
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Alfonse2_45
+      rect:
+        serializedVersion: 2
+        x: 85
+        y: 519
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e8d8b96e7ea867300800000000000000
+      internalID: 249539557976673678
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Alfonse2_46
+      rect:
+        serializedVersion: 2
+        x: 92
+        y: 517
+        width: 5
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd9eb939f300d7960800000000000000
+      internalID: 7601232019130673631
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Alfonse2_47
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 519
+        width: 5
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b9f4ccf97b8f599d0800000000000000
+      internalID: -2768032928405631077
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Alfonse2_48
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 519
+        width: 9
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e5591686a87aa5ee0800000000000000
+      internalID: -1271519731880192674
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Alfonse2_49
+      rect:
+        serializedVersion: 2
+        x: 164
+        y: 466
+        width: 48
+        height: 54
+      alignment: 9
+      pivot: {x: 0.6666667, y: 0.4351852}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 22ed96ea09d02c620800000000000000
+      internalID: 2792809633975754274
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Alfonse2_50
+      rect:
+        serializedVersion: 2
+        x: 225
+        y: 468
+        width: 55
+        height: 53
+      alignment: 9
+      pivot: {x: 0.72727275, y: 0.44339624}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a38866549b3132440800000000000000
+      internalID: 4909789705218197562
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Alfonse2_51
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 463
+        width: 64
+        height: 47
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5dccf536ca2d73c10800000000000000
+      internalID: 2033325394624498901
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Alfonse2_52
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 464
+        width: 69
+        height: 47
+      alignment: 9
+      pivot: {x: 0.5797101, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 36f06bf7304b58df0800000000000000
+      internalID: -178538683090727069
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Alfonse2_53
+      rect:
+        serializedVersion: 2
+        x: 293
+        y: 504
+        width: 9
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a564bdfe3d11415f0800000000000000
+      internalID: -786984432923097510
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Alfonse2_54
+      rect:
+        serializedVersion: 2
+        x: 289
+        y: 468
+        width: 60
+        height: 51
+      alignment: 9
+      pivot: {x: 0.71666664, y: 0.46078432}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 899f361dabc4884e0800000000000000
+      internalID: -1979247670968714856
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Alfonse2_55
+      rect:
+        serializedVersion: 2
+        x: 432
+        y: 467
+        width: 35
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd47e1f0a7f5c77a0800000000000000
+      internalID: -6378117994419161891
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Alfonse2_56
+      rect:
+        serializedVersion: 2
+        x: 43
+        y: 381
+        width: 74
+        height: 66
+      alignment: 9
+      pivot: {x: 0.3918919, y: 0.3560606}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb5cb8f84a587ce20800000000000000
+      internalID: 3370809787939538363
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Alfonse2_57
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 434
+        width: 5
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc29c69aea7732fa0800000000000000
+      internalID: -5826681900836810036
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Alfonse2_58
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 422
+        width: 11
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d1c39bfd7fe09bf0800000000000000
+      internalID: -319492249172590128
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Alfonse2_59
+      rect:
+        serializedVersion: 2
+        x: 133
+        y: 369
+        width: 44
+        height: 84
+      alignment: 9
+      pivot: {x: 0.65909094, y: 0.2797619}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f015c71345539040800000000000000
+      internalID: 4653156586653815030
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Alfonse2_60
+      rect:
+        serializedVersion: 2
+        x: 197
+        y: 371
+        width: 49
+        height: 75
+      alignment: 9
+      pivot: {x: 0.59183675, y: 0.31333333}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2649323a4bdbda2c0800000000000000
+      internalID: -4418667075851807646
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Alfonse2_61
+      rect:
+        serializedVersion: 2
+        x: 271
+        y: 373
+        width: 61
+        height: 65
+      alignment: 9
+      pivot: {x: 0.4918033, y: 0.36153847}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c181968f7ea8a9fa0800000000000000
+      internalID: -5793165241749006308
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Alfonse2_62
+      rect:
+        serializedVersion: 2
+        x: 422
+        y: 376
+        width: 65
+        height: 50
+      alignment: 9
+      pivot: {x: 0.7692308, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a41257c45ea9e730800000000000000
+      internalID: 4028943020804150439
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Alfonse2_63
+      rect:
+        serializedVersion: 2
+        x: 107
+        y: 398
+        width: 6
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b45f5b58b3f154390800000000000000
+      internalID: -7834821636234283701
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Alfonse2_64
+      rect:
+        serializedVersion: 2
+        x: 340
+        y: 375
+        width: 64
+        height: 47
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 704114b4636d8a8f0800000000000000
+      internalID: -528937427536899065
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Alfonse2_65
+      rect:
+        serializedVersion: 2
+        x: 47
+        y: 323
+        width: 16
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a7bd5f76d781b06c0800000000000000
+      internalID: -4176217302561858694
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Alfonse2_66
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 323
+        width: 16
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b18b86ddff101f20800000000000000
+      internalID: 3391245694496637363
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Alfonse2_67
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 323
+        width: 15
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c19c873a791774fd0800000000000000
+      internalID: -2357790983808562916
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Alfonse2_68
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 322
+        width: 18
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f38f20dcbb63c25e0800000000000000
+      internalID: -1933109959822477249
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Alfonse2_69
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 323
+        width: 18
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 95c12bc62f46ee440800000000000000
+      internalID: 4967018431404711001
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Alfonse2_70
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 322
+        width: 18
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8627a59f910762420800000000000000
+      internalID: 2604892691340358248
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Alfonse2_71
+      rect:
+        serializedVersion: 2
+        x: 236
+        y: 324
+        width: 22
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc41e70746aa93b30800000000000000
+      internalID: 4267629470271018191
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Alfonse2_72
+      rect:
+        serializedVersion: 2
+        x: 267
+        y: 324
+        width: 19
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f6312ba0f4f199410800000000000000
+      internalID: 1484251976537609071
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Alfonse2_73
+      rect:
+        serializedVersion: 2
+        x: 294
+        y: 325
+        width: 19
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e6dac3dde0d4db4d0800000000000000
+      internalID: -3117250640833893010
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Alfonse2_74
+      rect:
+        serializedVersion: 2
+        x: 338
+        y: 287
+        width: 182
+        height: 69
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db8bf78dd0e1761c0800000000000000
+      internalID: -4510603456972605251
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Alfonse2_75
+      rect:
+        serializedVersion: 2
+        x: 43
+        y: 295
+        width: 25
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 21933d06c0c759340800000000000000
+      internalID: 4869934964676966674
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Alfonse2_76
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 296
+        width: 25
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 76a15c2cf6d4df540800000000000000
+      internalID: 5043272300129229415
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Alfonse2_77
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 295
+        width: 24
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 004f1869223e25420800000000000000
+      internalID: 2617404071149171712
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Alfonse2_78
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 292
+        width: 16
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 720492b26e9a62d60800000000000000
+      internalID: 7865160605280845863
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Alfonse2_79
+      rect:
+        serializedVersion: 2
+        x: 175
+        y: 292
+        width: 16
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c24158bce732736a0800000000000000
+      internalID: -6469663312207080404
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Alfonse2_80
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 292
+        width: 16
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd0ecce65689ab8e0800000000000000
+      internalID: -1676860349824048933
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Alfonse2_81
+      rect:
+        serializedVersion: 2
+        x: 228
+        y: 301
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c85e5c36409edb790800000000000000
+      internalID: -7512592398321064564
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Alfonse2_82
+      rect:
+        serializedVersion: 2
+        x: 236
+        y: 301
+        width: 5
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f363d6b3964e08930800000000000000
+      internalID: 4143562797800568383
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Alfonse2_83
+      rect:
+        serializedVersion: 2
+        x: 242
+        y: 299
+        width: 5
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e5d508e00f9640eb0800000000000000
+      internalID: -4754558826840040098
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Alfonse2_84
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 253
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1785642c6efd80940800000000000000
+      internalID: 5262702346777286769
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Alfonse2_85
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 253
+        width: 5
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6940099f47a2c4490800000000000000
+      internalID: -7760781375974669162
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Alfonse2_86
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 253
+        width: 5
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 03d1e14aba4278110800000000000000
+      internalID: 1263018540112158000
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Alfonse2_87
+      rect:
+        serializedVersion: 2
+        x: 45
+        y: 251
+        width: 5
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2fd440725e685e070800000000000000
+      internalID: 8135056620674895346
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Alfonse2_88
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 253
+        width: 5
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7026a72bf003d7350800000000000000
+      internalID: 6016017521213858311
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Alfonse2_89
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 191
+        width: 63
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 171bc78747e4944b0800000000000000
+      internalID: -5455743211438034575
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Alfonse2_90
+      rect:
+        serializedVersion: 2
+        x: 92
+        y: 192
+        width: 58
+        height: 56
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c7a6aea8365cf6240800000000000000
+      internalID: 4787261960241179260
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Alfonse2_91
+      rect:
+        serializedVersion: 2
+        x: 165
+        y: 191
+        width: 52
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f396c5c95a90ffc90800000000000000
+      internalID: -7133972677834020545
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Alfonse2_92
+      rect:
+        serializedVersion: 2
+        x: 222
+        y: 191
+        width: 49
+        height: 49
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3532671d40f53c9d0800000000000000
+      internalID: -2755254072721923245
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Alfonse2_93
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 14
+        width: 528
+        height: 159
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 123b9c66f8883eaf0800000000000000
+      internalID: -368300595028053215
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

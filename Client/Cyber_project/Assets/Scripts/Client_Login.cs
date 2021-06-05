@@ -4,6 +4,7 @@ using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.SceneManagement;
 using System;
+using System.Threading;
 using System.Net;
 using System.Net.Sockets;
 using System.Text;
@@ -25,12 +26,12 @@ public class Client_Login : MonoBehaviour
         int byteSent = VariableStorage.sender.Send(messageSent);
 
         Debug.Log(byteSent);
-
+        Thread.Sleep(200);
         byte[] messageSent1 = Encoding.ASCII.GetBytes(password);
         byteSent = VariableStorage.sender.Send(messageSent1);
 
         Debug.Log(byteSent);
-
+        Thread.Sleep(200);
         byte[] messageSent2 = Encoding.ASCII.GetBytes(email);
         byteSent = VariableStorage.sender.Send(messageSent2);
 

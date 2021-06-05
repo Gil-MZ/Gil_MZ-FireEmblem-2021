@@ -12,17 +12,22 @@ public class Scenes_switcher : MonoBehaviour
 {
     public void Register()
     {
-        byte[] messageSent = Encoding.ASCII.GetBytes("2");
-        int byteSent = VariableStorage.sender.Send(messageSent);
-        SceneManager.LoadScene(1);
+        if (VariableStorage.User == true)
+        {
+            byte[] messageSent = Encoding.ASCII.GetBytes("2");
+            int byteSent = VariableStorage.sender.Send(messageSent);
+            SceneManager.LoadScene(1);
+        }
     }
 
     public void Login()
     {
-        byte[] messageSent = Encoding.ASCII.GetBytes("1");
-        int byteSent = VariableStorage.sender.Send(messageSent);
-        SceneManager.LoadScene(2);
-        
+        if (VariableStorage.User == true)
+        {
+            byte[] messageSent = Encoding.ASCII.GetBytes("1");
+            int byteSent = VariableStorage.sender.Send(messageSent);
+            SceneManager.LoadScene(2);
+        }       
     }
 
     public void Back()
@@ -57,12 +62,14 @@ public class Scenes_switcher : MonoBehaviour
 
     public void About()
     {
-        SceneManager.LoadScene(5);
+        if(VariableStorage.User == true)
+            SceneManager.LoadScene(5);
     }
 
     public void Rules()
     {
-        SceneManager.LoadScene(6);
+        if(VariableStorage.User == true)
+            SceneManager.LoadScene(6);
     }
 
 }

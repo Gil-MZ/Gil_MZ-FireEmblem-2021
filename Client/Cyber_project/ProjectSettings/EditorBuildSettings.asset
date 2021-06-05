@@ -29,4 +29,10 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Game.unity
     guid: bdfa53d52c91f524e876c6f194a7cf85
+  - enabled: 1
+    path: Assets/Scenes/Email_code.unity
+    guid: 7290c4390b650b44ba8c7ab2ba976327
+  - enabled: 1
+    path: Assets/Scenes/Fight_Scene.unity
+    guid: f68c90fca9b477543ae89078efab1b65
   m_configObjects: {}

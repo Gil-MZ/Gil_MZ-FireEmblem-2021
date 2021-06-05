@@ -4,6 +4,7 @@ using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.SceneManagement;
 using System;
+using System.Threading;
 using System.Net;
 using System.Net.Sockets;
 using System.Text;
@@ -69,16 +70,16 @@ public class Soldiers_select : MonoBehaviour
 
             byte[] messageSent1 = Encoding.ASCII.GetBytes(VariableStorage.c1);
             int byteSent1 = VariableStorage.sender.Send(messageSent1);
-
+            Thread.Sleep(200);
             byte[] messageSent2 = Encoding.ASCII.GetBytes(VariableStorage.c2);
             int byteSent2 = VariableStorage.sender.Send(messageSent2);
-
+            Thread.Sleep(200);
             byte[] messageSent3 = Encoding.ASCII.GetBytes(VariableStorage.c3);
             int byteSent3 = VariableStorage.sender.Send(messageSent3);
-
+            Thread.Sleep(200);
             byte[] messageSent4 = Encoding.ASCII.GetBytes(VariableStorage.c4);
             int byteSent4 = VariableStorage.sender.Send(messageSent4);
-
+            Thread.Sleep(200);
             byte[] messageSent5 = Encoding.ASCII.GetBytes(VariableStorage.c5);
             int byteSent5 = VariableStorage.sender.Send(messageSent5);
 

@@ -198,20 +198,21 @@ MonoBehaviour:
 
 
     To move the
-    soldiers, click on them and indicate where they will go according to the radius
-    in which they can move.
+    soldiers, click on them and press on one of the arrows key, you can move each
+    soldiers 5 times, after you move all the soldiers the enemie turn will begin,
+    to surrender you will need to quit the game.
 
 
-    There are several different types of soldiers who
-    can attack from a distance or close, each soldier has life points, attack, defense
-    and more.
+    There are several different
+    types of soldiers who can attack from a distance or close, each soldier has life
+    points, attack, defense and more.
 
 
-    In order to attack an enemy soldier, he must be within the radius
-    of attack of your soldier.
+    In order to attack an enemy soldier,
+    he must be within the radius of attack of your soldier.
 
-    States - M (Magic), A (Attack), D (Defense),
-    S (Speed), HP (Health Points)'
+    States - M (Magic),
+    A (Attack), D (Defense), S (Speed), HP (Health Points)'
 --- !u!222 &9648707
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -735,8 +736,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 546261029}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.007, y: 0.003, z: 0}
-  m_LocalScale: {x: 1.0409507, y: 1.3893269, z: 1}
+  m_LocalPosition: {x: 0.016, y: 0.003, z: 0}
+  m_LocalScale: {x: 1.0445728, y: 1.3893269, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 1

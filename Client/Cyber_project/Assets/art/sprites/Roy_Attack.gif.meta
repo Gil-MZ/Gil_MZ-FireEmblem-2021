@@ -1,0 +1,3058 @@
+fileFormatVersion: 2
+guid: 870e0efe2f53d9e4a936a587f0c92842
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 1528039734425188027
+    second: Roy_Attack_0
+  - first:
+      213: 7048974208118961717
+    second: Roy_Attack_1
+  - first:
+      213: 107715484783573168
+    second: Roy_Attack_2
+  - first:
+      213: -6959068311540368717
+    second: Roy_Attack_3
+  - first:
+      213: 6438925449698512752
+    second: Roy_Attack_4
+  - first:
+      213: -3537638174217722602
+    second: Roy_Attack_5
+  - first:
+      213: 5237527549202194954
+    second: Roy_Attack_6
+  - first:
+      213: -5935337434286925327
+    second: Roy_Attack_7
+  - first:
+      213: 3211924618611473506
+    second: Roy_Attack_8
+  - first:
+      213: 140464057508981925
+    second: Roy_Attack_9
+  - first:
+      213: 2036949277067930106
+    second: Roy_Attack_10
+  - first:
+      213: -760475914988137339
+    second: Roy_Attack_11
+  - first:
+      213: -4358709537900760845
+    second: Roy_Attack_12
+  - first:
+      213: 8324050660947676485
+    second: Roy_Attack_13
+  - first:
+      213: -6147761985237224252
+    second: Roy_Attack_14
+  - first:
+      213: 5605931915311369199
+    second: Roy_Attack_15
+  - first:
+      213: 3783956198069679277
+    second: Roy_Attack_16
+  - first:
+      213: 4114369299649546640
+    second: Roy_Attack_17
+  - first:
+      213: 7655573921882674747
+    second: Roy_Attack_18
+  - first:
+      213: 7651636520739778527
+    second: Roy_Attack_19
+  - first:
+      213: -77714464395965019
+    second: Roy_Attack_20
+  - first:
+      213: 4899838728455492682
+    second: Roy_Attack_21
+  - first:
+      213: 2836461365832116251
+    second: Roy_Attack_22
+  - first:
+      213: -4735435482313435585
+    second: Roy_Attack_23
+  - first:
+      213: 8110802402569767418
+    second: Roy_Attack_24
+  - first:
+      213: 3082115917279400468
+    second: Roy_Attack_25
+  - first:
+      213: 3215863739037345454
+    second: Roy_Attack_26
+  - first:
+      213: -5196519852556266071
+    second: Roy_Attack_27
+  - first:
+      213: -2220108024086752706
+    second: Roy_Attack_28
+  - first:
+      213: -1345287195986089429
+    second: Roy_Attack_29
+  - first:
+      213: 2735416905202052959
+    second: Roy_Attack_30
+  - first:
+      213: 4201710066298288574
+    second: Roy_Attack_31
+  - first:
+      213: -9221129760085434243
+    second: Roy_Attack_32
+  - first:
+      213: 3466336604693108819
+    second: Roy_Attack_33
+  - first:
+      213: -3584038963265577926
+    second: Roy_Attack_34
+  - first:
+      213: -6613581542958132699
+    second: Roy_Attack_35
+  - first:
+      213: -564042615213073194
+    second: Roy_Attack_36
+  - first:
+      213: 5245737395348774629
+    second: Roy_Attack_37
+  - first:
+      213: -8117939408251930798
+    second: Roy_Attack_38
+  - first:
+      213: 5944095674808908178
+    second: Roy_Attack_39
+  - first:
+      213: -5457679462852881241
+    second: Roy_Attack_40
+  - first:
+      213: 2971716631467296306
+    second: Roy_Attack_41
+  - first:
+      213: 7585617353382902230
+    second: Roy_Attack_42
+  - first:
+      213: 2504611112233521983
+    second: Roy_Attack_43
+  - first:
+      213: 6920762391901293414
+    second: Roy_Attack_44
+  - first:
+      213: -616169382886027587
+    second: Roy_Attack_45
+  - first:
+      213: -6267202361229070155
+    second: Roy_Attack_46
+  - first:
+      213: -6636493973005005058
+    second: Roy_Attack_47
+  - first:
+      213: 5780683507452865596
+    second: Roy_Attack_48
+  - first:
+      213: 5350478663100454495
+    second: Roy_Attack_49
+  - first:
+      213: -4397512189585875845
+    second: Roy_Attack_50
+  - first:
+      213: 381344328427578831
+    second: Roy_Attack_51
+  - first:
+      213: -131379080758079611
+    second: Roy_Attack_52
+  - first:
+      213: -5791197156286168263
+    second: Roy_Attack_53
+  - first:
+      213: 2141130836143320127
+    second: Roy_Attack_54
+  - first:
+      213: 8700910381402092110
+    second: Roy_Attack_55
+  - first:
+      213: 201811272045964557
+    second: Roy_Attack_56
+  - first:
+      213: 1083661894697192240
+    second: Roy_Attack_57
+  - first:
+      213: -7169020450465589299
+    second: Roy_Attack_58
+  - first:
+      213: -6698487977847309882
+    second: Roy_Attack_59
+  - first:
+      213: 5480020718813954026
+    second: Roy_Attack_60
+  - first:
+      213: -7022842181112168627
+    second: Roy_Attack_61
+  - first:
+      213: -8104773830129054285
+    second: Roy_Attack_62
+  - first:
+      213: -7938910847394321587
+    second: Roy_Attack_63
+  - first:
+      213: 2445711983699666198
+    second: Roy_Attack_64
+  - first:
+      213: -2239542117394446150
+    second: Roy_Attack_65
+  - first:
+      213: 8474761590233960508
+    second: Roy_Attack_66
+  - first:
+      213: 470392860275923930
+    second: Roy_Attack_67
+  - first:
+      213: 5470621034068613188
+    second: Roy_Attack_68
+  - first:
+      213: -2612877340216479610
+    second: Roy_Attack_69
+  - first:
+      213: 7525100312120423851
+    second: Roy_Attack_70
+  - first:
+      213: -6217952298519647417
+    second: Roy_Attack_71
+  - first:
+      213: -1990676357767338047
+    second: Roy_Attack_72
+  - first:
+      213: 1888373174981835956
+    second: Roy_Attack_73
+  - first:
+      213: 631095471275995085
+    second: Roy_Attack_74
+  - first:
+      213: 1760774323115058652
+    second: Roy_Attack_75
+  - first:
+      213: 2100717999454025873
+    second: Roy_Attack_76
+  - first:
+      213: 3761041207264799666
+    second: Roy_Attack_77
+  - first:
+      213: -995945419227360687
+    second: Roy_Attack_78
+  - first:
+      213: -6055655132465721994
+    second: Roy_Attack_79
+  - first:
+      213: -5079682873436935510
+    second: Roy_Attack_80
+  - first:
+      213: -7744256930056781833
+    second: Roy_Attack_81
+  - first:
+      213: -2109571653499441891
+    second: Roy_Attack_82
+  - first:
+      213: -4144471158280572151
+    second: Roy_Attack_83
+  - first:
+      213: -114859988957250206
+    second: Roy_Attack_84
+  - first:
+      213: -41281159826172883
+    second: Roy_Attack_85
+  - first:
+      213: 2403768128223900006
+    second: Roy_Attack_86
+  - first:
+      213: -5447271596620496178
+    second: Roy_Attack_87
+  - first:
+      213: 2525044013062703144
+    second: Roy_Attack_88
+  - first:
+      213: 4507718457062250391
+    second: Roy_Attack_89
+  - first:
+      213: 2818385077839196034
+    second: Roy_Attack_90
+  - first:
+      213: -8450492526307927180
+    second: Roy_Attack_91
+  - first:
+      213: -424091093624544814
+    second: Roy_Attack_92
+  - first:
+      213: -6639126501692651246
+    second: Roy_Attack_93
+  - first:
+      213: -7277774851259990835
+    second: Roy_Attack_94
+  - first:
+      213: 5790903905928114083
+    second: Roy_Attack_95
+  - first:
+      213: 3603360263713840635
+    second: Roy_Attack_96
+  - first:
+      213: -3753420967422622933
+    second: Roy_Attack_97
+  - first:
+      213: 1239119871370042892
+    second: Roy_Attack_98
+  - first:
+      213: -3430138263683064031
+    second: Roy_Attack_99
+  - first:
+      213: 7347532408608375945
+    second: Roy_Attack_100
+  - first:
+      213: -5337573827209344530
+    second: Roy_Attack_101
+  - first:
+      213: -8326642924300529824
+    second: Roy_Attack_102
+  - first:
+      213: -8932034997078929646
+    second: Roy_Attack_103
+  - first:
+      213: -2178214497567951815
+    second: Roy_Attack_104
+  - first:
+      213: -4584631209547389543
+    second: Roy_Attack_105
+  - first:
+      213: 6693422066738394177
+    second: Roy_Attack_106
+  - first:
+      213: 6450002252519123018
+    second: Roy_Attack_107
+  - first:
+      213: 7605864672425116173
+    second: Roy_Attack_108
+  - first:
+      213: -6632614241200938170
+    second: Roy_Attack_109
+  - first:
+      213: -4362317079136416933
+    second: Roy_Attack_110
+  - first:
+      213: -325288477565875513
+    second: Roy_Attack_111
+  - first:
+      213: -4566693883269476916
+    second: Roy_Attack_112
+  - first:
+      213: -7163987415495547043
+    second: Roy_Attack_113
+  - first:
+      213: -8176232818653005024
+    second: Roy_Attack_114
+  - first:
+      213: 6025284719046037945
+    second: Roy_Attack_115
+  - first:
+      213: -4977363292072130466
+    second: Roy_Attack_116
+  - first:
+      213: -1769442128940252851
+    second: Roy_Attack_117
+  - first:
+      213: 2808512459607826050
+    second: Roy_Attack_118
+  - first:
+      213: -3698384260533150782
+    second: Roy_Attack_119
+  - first:
+      213: -8449644252502790879
+    second: Roy_Attack_120
+  - first:
+      213: 5718544169752733868
+    second: Roy_Attack_121
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Windows Store Apps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Roy_Attack_0
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 629
+        width: 9
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb67815ea00b43510800000000000000
+      internalID: 1528039734425188027
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Roy_Attack_1
+      rect:
+        serializedVersion: 2
+        x: 25
+        y: 629
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 53632d9f1bcf2d160800000000000000
+      internalID: 7048974208118961717
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Roy_Attack_2
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 629
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b87557a9aeae7100800000000000000
+      internalID: 107715484783573168
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Roy_Attack_3
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 629
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3ba75facd3c6c6f90800000000000000
+      internalID: -6959068311540368717
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Roy_Attack_4
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 629
+        width: 8
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 07f8084e498ab5950800000000000000
+      internalID: 6438925449698512752
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Roy_Attack_5
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 629
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 61524e1e2d8c7eec0800000000000000
+      internalID: -3537638174217722602
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Roy_Attack_6
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 626
+        width: 6
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a02e48f6e8f6fa840800000000000000
+      internalID: 5237527549202194954
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Roy_Attack_7
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 629
+        width: 11
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f9df3fdc0271ada0800000000000000
+      internalID: -5935337434286925327
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Roy_Attack_8
+      rect:
+        serializedVersion: 2
+        x: 91
+        y: 629
+        width: 6
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 26c3ba15c6c039c20800000000000000
+      internalID: 3211924618611473506
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Roy_Attack_9
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 629
+        width: 6
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ac688be05703f100800000000000000
+      internalID: 140464057508981925
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Roy_Attack_10
+      rect:
+        serializedVersion: 2
+        x: 110
+        y: 629
+        width: 8
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af96f154392b44c10800000000000000
+      internalID: 2036949277067930106
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Roy_Attack_11
+      rect:
+        serializedVersion: 2
+        x: 119
+        y: 629
+        width: 11
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 58454ea3f2f3275f0800000000000000
+      internalID: -760475914988137339
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Roy_Attack_12
+      rect:
+        serializedVersion: 2
+        x: 131
+        y: 629
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f0715ac4c0c283c0800000000000000
+      internalID: -4358709537900760845
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Roy_Attack_13
+      rect:
+        serializedVersion: 2
+        x: 139
+        y: 629
+        width: 4
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 54d442239f7f48370800000000000000
+      internalID: 8324050660947676485
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Roy_Attack_14
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 629
+        width: 6
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c4f842fb03ceaaa0800000000000000
+      internalID: -6147761985237224252
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Roy_Attack_15
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 580
+        width: 38
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: febc82f10654ccd40800000000000000
+      internalID: 5605931915311369199
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Roy_Attack_16
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 580
+        width: 47
+        height: 33
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da4b4972d10538430800000000000000
+      internalID: 3783956198069679277
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Roy_Attack_17
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 583
+        width: 38
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0994264441d291930800000000000000
+      internalID: 4114369299649546640
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Roy_Attack_18
+      rect:
+        serializedVersion: 2
+        x: 183
+        y: 581
+        width: 43
+        height: 39
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b369f85cbef0e3a60800000000000000
+      internalID: 7655573921882674747
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Roy_Attack_19
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 581
+        width: 43
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fdfa91120e2103a60800000000000000
+      internalID: 7651636520739778527
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Roy_Attack_20
+      rect:
+        serializedVersion: 2
+        x: 295
+        y: 590
+        width: 39
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5adc4cb3b17ebeef0800000000000000
+      internalID: -77714464395965019
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Roy_Attack_21
+      rect:
+        serializedVersion: 2
+        x: 349
+        y: 582
+        width: 47
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a449a42fc59bff340800000000000000
+      internalID: 4899838728455492682
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Roy_Attack_22
+      rect:
+        serializedVersion: 2
+        x: 306
+        y: 578
+        width: 27
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b18ea8185922d5720800000000000000
+      internalID: 2836461365832116251
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Roy_Attack_23
+      rect:
+        serializedVersion: 2
+        x: 78
+        y: 568
+        width: 17
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f365deba48a584eb0800000000000000
+      internalID: -4735435482313435585
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Roy_Attack_24
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 566
+        width: 17
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af94e80ffcb5f8070800000000000000
+      internalID: 8110802402569767418
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Roy_Attack_25
+      rect:
+        serializedVersion: 2
+        x: 149
+        y: 563
+        width: 17
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4121406d810e5ca20800000000000000
+      internalID: 3082115917279400468
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Roy_Attack_26
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 532
+        width: 32
+        height: 35
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea66163480b01ac20800000000000000
+      internalID: 3215863739037345454
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Roy_Attack_27
+      rect:
+        serializedVersion: 2
+        x: 76
+        y: 526
+        width: 24
+        height: 49
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a55e18f9b042e7b0800000000000000
+      internalID: -5196519852556266071
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Roy_Attack_28
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 526
+        width: 24
+        height: 47
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e329055c3879031e0800000000000000
+      internalID: -2220108024086752706
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Roy_Attack_29
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 526
+        width: 24
+        height: 44
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b2a2e524c64945de0800000000000000
+      internalID: -1345287195986089429
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Roy_Attack_30
+      rect:
+        serializedVersion: 2
+        x: 179
+        y: 530
+        width: 40
+        height: 33
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f5faa23be2726f520800000000000000
+      internalID: 2735416905202052959
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Roy_Attack_31
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 532
+        width: 38
+        height: 36
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb974ee2b097f4a30800000000000000
+      internalID: 4201710066298288574
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Roy_Attack_32
+      rect:
+        serializedVersion: 2
+        x: 298
+        y: 535
+        width: 38
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d70235eb657f70080800000000000000
+      internalID: -9221129760085434243
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Roy_Attack_33
+      rect:
+        serializedVersion: 2
+        x: 78
+        y: 526
+        width: 20
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3589aaac6c6ea1030800000000000000
+      internalID: 3466336604693108819
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Roy_Attack_34
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 526
+        width: 20
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a3c556d4d8fe24ec0800000000000000
+      internalID: -3584038963265577926
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Roy_Attack_35
+      rect:
+        serializedVersion: 2
+        x: 149
+        y: 526
+        width: 20
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 52296ee70a6d734a0800000000000000
+      internalID: -6613581542958132699
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Roy_Attack_36
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 497
+        width: 9
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6dcda0ada3e1c28f0800000000000000
+      internalID: -564042615213073194
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Roy_Attack_37
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 497
+        width: 4
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ee1fb23e5a9cc840800000000000000
+      internalID: 5245737395348774629
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Roy_Attack_38
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 497
+        width: 8
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 257bffe6e19475f80800000000000000
+      internalID: -8117939408251930798
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Roy_Attack_39
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 497
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 299bbe7e58bad7250800000000000000
+      internalID: 5944095674808908178
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Roy_Attack_40
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 497
+        width: 9
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a495bec17d6244b0800000000000000
+      internalID: -5457679462852881241
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Roy_Attack_41
+      rect:
+        serializedVersion: 2
+        x: 75
+        y: 497
+        width: 8
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2368abf0888ad3920800000000000000
+      internalID: 2971716631467296306
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Roy_Attack_42
+      rect:
+        serializedVersion: 2
+        x: 85
+        y: 497
+        width: 6
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d93d66eac6854960800000000000000
+      internalID: 7585617353382902230
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Roy_Attack_43
+      rect:
+        serializedVersion: 2
+        x: 95
+        y: 497
+        width: 11
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f33dc2d598a22c220800000000000000
+      internalID: 2504611112233521983
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Roy_Attack_44
+      rect:
+        serializedVersion: 2
+        x: 107
+        y: 497
+        width: 6
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 66bc8284abc7b0060800000000000000
+      internalID: 6920762391901293414
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Roy_Attack_45
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 497
+        width: 6
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dbe4b9bf53de277f0800000000000000
+      internalID: -616169382886027587
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Roy_Attack_46
+      rect:
+        serializedVersion: 2
+        x: 126
+        y: 497
+        width: 8
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b0b37358ac6609a0800000000000000
+      internalID: -6267202361229070155
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Roy_Attack_47
+      rect:
+        serializedVersion: 2
+        x: 135
+        y: 497
+        width: 11
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: efe0409a4ef66e3a0800000000000000
+      internalID: -6636493973005005058
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Roy_Attack_48
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 497
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c3cefacc50d193050800000000000000
+      internalID: 5780683507452865596
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Roy_Attack_49
+      rect:
+        serializedVersion: 2
+        x: 155
+        y: 497
+        width: 4
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f56d86cfef7b04a40800000000000000
+      internalID: 5350478663100454495
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Roy_Attack_50
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 497
+        width: 6
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b7c984c66f5e8f2c0800000000000000
+      internalID: -4397512189585875845
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Roy_Attack_51
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 439
+        width: 38
+        height: 32
+      alignment: 9
+      pivot: {x: 0.5, y: 0.625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc5290175aeca4500800000000000000
+      internalID: 381344328427578831
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Roy_Attack_52
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 440
+        width: 45
+        height: 33
+      alignment: 9
+      pivot: {x: 0.42222223, y: 0.57575756}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 58f4f701c6f3d2ef0800000000000000
+      internalID: -131379080758079611
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Roy_Attack_53
+      rect:
+        serializedVersion: 2
+        x: 134
+        y: 438
+        width: 41
+        height: 41
+      alignment: 9
+      pivot: {x: 0.58536583, y: 0.58536583}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9338f439ed881afa0800000000000000
+      internalID: -5791197156286168263
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Roy_Attack_54
+      rect:
+        serializedVersion: 2
+        x: 190
+        y: 438
+        width: 35
+        height: 46
+      alignment: 9
+      pivot: {x: 0.6, y: 0.47826087}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f3c25f9b623d6bd10800000000000000
+      internalID: 2141130836143320127
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Roy_Attack_55
+      rect:
+        serializedVersion: 2
+        x: 238
+        y: 446
+        width: 51
+        height: 40
+      alignment: 9
+      pivot: {x: 0.5882353, y: 0.4}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e42faf974e7dfb870800000000000000
+      internalID: 8700910381402092110
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Roy_Attack_56
+      rect:
+        serializedVersion: 2
+        x: 298
+        y: 451
+        width: 56
+        height: 38
+      alignment: 9
+      pivot: {x: 0.5, y: 0.36842105}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d0d28fd584afcc200800000000000000
+      internalID: 201811272045964557
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Roy_Attack_57
+      rect:
+        serializedVersion: 2
+        x: 366
+        y: 446
+        width: 41
+        height: 47
+      alignment: 9
+      pivot: {x: 0.36585367, y: 0.31914893}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 03b8d0270c0f90f00800000000000000
+      internalID: 1083661894697192240
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Roy_Attack_58
+      rect:
+        serializedVersion: 2
+        x: 252
+        y: 446
+        width: 27
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc7dc7622e5828c90800000000000000
+      internalID: -7169020450465589299
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Roy_Attack_59
+      rect:
+        serializedVersion: 2
+        x: 372
+        y: 446
+        width: 27
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c9bf2c9ca03a03a0800000000000000
+      internalID: -6698487977847309882
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Roy_Attack_60
+      rect:
+        serializedVersion: 2
+        x: 27
+        y: 375
+        width: 33
+        height: 57
+      alignment: 9
+      pivot: {x: 0.42424244, y: 0.2631579}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aefbfa23fc1fc0c40800000000000000
+      internalID: 5480020718813954026
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Roy_Attack_61
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 375
+        width: 30
+        height: 57
+      alignment: 9
+      pivot: {x: 0.36666667, y: 0.2631579}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d4ffd21be3ad98e90800000000000000
+      internalID: -7022842181112168627
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Roy_Attack_62
+      rect:
+        serializedVersion: 2
+        x: 106
+        y: 375
+        width: 30
+        height: 56
+      alignment: 9
+      pivot: {x: 0.36666667, y: 0.26785713}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3bd8646742f068f80800000000000000
+      internalID: -8104773830129054285
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Roy_Attack_63
+      rect:
+        serializedVersion: 2
+        x: 151
+        y: 380
+        width: 34
+        height: 34
+      alignment: 9
+      pivot: {x: 0.38235295, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d4be09d75a253d190800000000000000
+      internalID: -7938910847394321587
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Roy_Attack_64
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 382
+        width: 36
+        height: 25
+      alignment: 9
+      pivot: {x: 0.6111111, y: 0.64}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 615a55b571ae0f120800000000000000
+      internalID: 2445711983699666198
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Roy_Attack_65
+      rect:
+        serializedVersion: 2
+        x: 237
+        y: 384
+        width: 48
+        height: 32
+      alignment: 9
+      pivot: {x: 0.625, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab88d215f4c8be0e0800000000000000
+      internalID: -2239542117394446150
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Roy_Attack_66
+      rect:
+        serializedVersion: 2
+        x: 299
+        y: 384
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c30150ed3c66c9570800000000000000
+      internalID: 8474761590233960508
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Roy_Attack_67
+      rect:
+        serializedVersion: 2
+        x: 345
+        y: 380
+        width: 58
+        height: 49
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: adb50ad60db278600800000000000000
+      internalID: 470392860275923930
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Roy_Attack_68
+      rect:
+        serializedVersion: 2
+        x: 25
+        y: 311
+        width: 66
+        height: 57
+      alignment: 9
+      pivot: {x: 0.5, y: 0.49122807}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 448907c88dc8beb40800000000000000
+      internalID: 5470621034068613188
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Roy_Attack_69
+      rect:
+        serializedVersion: 2
+        x: 106
+        y: 319
+        width: 42
+        height: 42
+      alignment: 9
+      pivot: {x: 0.5714286, y: 0.4047619}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 680bab617e13dbbd0800000000000000
+      internalID: -2612877340216479610
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Roy_Attack_70
+      rect:
+        serializedVersion: 2
+        x: 161
+        y: 312
+        width: 66
+        height: 57
+      alignment: 9
+      pivot: {x: 0.5, y: 0.49122807}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ba57e1b3dd68e6860800000000000000
+      internalID: 7525100312120423851
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Roy_Attack_71
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 318
+        width: 42
+        height: 42
+      alignment: 9
+      pivot: {x: 0.5714286, y: 0.4047619}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 74ba960245565b9a0800000000000000
+      internalID: -6217952298519647417
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Roy_Attack_72
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 236
+        width: 146
+        height: 61
+      alignment: 9
+      pivot: {x: 0.82191783, y: 0.5081967}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c762805662bf54e0800000000000000
+      internalID: -1990676357767338047
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Roy_Attack_73
+      rect:
+        serializedVersion: 2
+        x: 189
+        y: 241
+        width: 146
+        height: 61
+      alignment: 9
+      pivot: {x: 0.82191783, y: 0.5081967}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4bc3b2ac569d43a10800000000000000
+      internalID: 1888373174981835956
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Roy_Attack_74
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 198
+        width: 130
+        height: 24
+      alignment: 9
+      pivot: {x: 1, y: 0.6666667}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dcf63c8ccf912c800800000000000000
+      internalID: 631095471275995085
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Roy_Attack_75
+      rect:
+        serializedVersion: 2
+        x: 184
+        y: 194
+        width: 90
+        height: 33
+      alignment: 9
+      pivot: {x: 1.3333334, y: 0.75757575}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd5e6eafae68f6810800000000000000
+      internalID: 1760774323115058652
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Roy_Attack_76
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 132
+        width: 34
+        height: 53
+      alignment: 9
+      pivot: {x: 2.3529413, y: 0.33962265}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 198f9b2f3ef372d10800000000000000
+      internalID: 2100717999454025873
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Roy_Attack_77
+      rect:
+        serializedVersion: 2
+        x: 311
+        y: 181
+        width: 17
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2bbef981d07e13430800000000000000
+      internalID: 3761041207264799666
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Roy_Attack_78
+      rect:
+        serializedVersion: 2
+        x: 347
+        y: 179
+        width: 17
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 152964ffae0bd22f0800000000000000
+      internalID: -995945419227360687
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Roy_Attack_79
+      rect:
+        serializedVersion: 2
+        x: 382
+        y: 176
+        width: 17
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 67d0c13cdbdf5fba0800000000000000
+      internalID: -6055655132465721994
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Roy_Attack_80
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 142
+        width: 40
+        height: 36
+      alignment: 9
+      pivot: {x: 2.4, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aaae72507575189b0800000000000000
+      internalID: -5079682873436935510
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Roy_Attack_81
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 144
+        width: 44
+        height: 32
+      alignment: 9
+      pivot: {x: 2.2727273, y: 0.5625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ffbb9a5a5fd68490800000000000000
+      internalID: -7744256930056781833
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Roy_Attack_82
+      rect:
+        serializedVersion: 2
+        x: 193
+        y: 144
+        width: 47
+        height: 28
+      alignment: 9
+      pivot: {x: 1.7021277, y: 0.64285713}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d1daee412cb49b2e0800000000000000
+      internalID: -2109571653499441891
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Roy_Attack_83
+      rect:
+        serializedVersion: 2
+        x: 255
+        y: 145
+        width: 32
+        height: 35
+      alignment: 9
+      pivot: {x: 2.4375, y: 0.4857143}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 903b5dc9071eb76c0800000000000000
+      internalID: -4144471158280572151
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Roy_Attack_84
+      rect:
+        serializedVersion: 2
+        x: 309
+        y: 139
+        width: 24
+        height: 48
+      alignment: 9
+      pivot: {x: 2, y: 0.25}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 26d3c47d27fe76ef0800000000000000
+      internalID: -114859988957250206
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Roy_Attack_85
+      rect:
+        serializedVersion: 2
+        x: 345
+        y: 139
+        width: 24
+        height: 47
+      alignment: 9
+      pivot: {x: 1.1666666, y: 0.29787233}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d2415acf0075d6ff0800000000000000
+      internalID: -41281159826172883
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Roy_Attack_86
+      rect:
+        serializedVersion: 2
+        x: 380
+        y: 139
+        width: 24
+        height: 44
+      alignment: 9
+      pivot: {x: 0.875, y: 0.36363637}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 661f03d7066eb5120800000000000000
+      internalID: 2403768128223900006
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Roy_Attack_87
+      rect:
+        serializedVersion: 2
+        x: 311
+        y: 139
+        width: 20
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec24c5008576764b0800000000000000
+      internalID: -5447271596620496178
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Roy_Attack_88
+      rect:
+        serializedVersion: 2
+        x: 347
+        y: 139
+        width: 20
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 82844d0d622ca0320800000000000000
+      internalID: 2525044013062703144
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Roy_Attack_89
+      rect:
+        serializedVersion: 2
+        x: 382
+        y: 139
+        width: 20
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 797daa4cd02ae8e30800000000000000
+      internalID: 4507718457062250391
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Roy_Attack_90
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 133
+        width: 27
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 28feddcbb4aec1720800000000000000
+      internalID: 2818385077839196034
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Roy_Attack_91
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 89
+        width: 40
+        height: 33
+      alignment: 9
+      pivot: {x: 0.475, y: 0.6060606}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 47b9258e1d1d9ba80800000000000000
+      internalID: -8450492526307927180
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Roy_Attack_92
+      rect:
+        serializedVersion: 2
+        x: 91
+        y: 91
+        width: 38
+        height: 36
+      alignment: 9
+      pivot: {x: 0.2631579, y: 0.5833333}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d12a14b5635d1af0800000000000000
+      internalID: -424091093624544814
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Roy_Attack_93
+      rect:
+        serializedVersion: 2
+        x: 149
+        y: 94
+        width: 38
+        height: 32
+      alignment: 9
+      pivot: {x: 0.2631579, y: 0.65625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2194abf4f951dd3a0800000000000000
+      internalID: -6639126501692651246
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Roy_Attack_94
+      rect:
+        serializedVersion: 2
+        x: 305
+        y: 120
+        width: 9
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dcc70630556200b90800000000000000
+      internalID: -7277774851259990835
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Roy_Attack_95
+      rect:
+        serializedVersion: 2
+        x: 316
+        y: 120
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3af6441cb6c6d5050800000000000000
+      internalID: 5790903905928114083
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Roy_Attack_96
+      rect:
+        serializedVersion: 2
+        x: 324
+        y: 117
+        width: 6
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bfddb648115b10230800000000000000
+      internalID: 3603360263713840635
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Roy_Attack_97
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 96
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b238540448b29ebc0800000000000000
+      internalID: -3753420967422622933
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Roy_Attack_98
+      rect:
+        serializedVersion: 2
+        x: 329
+        y: 96
+        width: 14
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c0e932735fc323110800000000000000
+      internalID: 1239119871370042892
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Roy_Attack_99
+      rect:
+        serializedVersion: 2
+        x: 351
+        y: 96
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 12f12be3c63b560d0800000000000000
+      internalID: -3430138263683064031
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Roy_Attack_100
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 70
+        width: 9
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 984c5c6fbcda7f560800000000000000
+      internalID: 7347532408608375945
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Roy_Attack_101
+      rect:
+        serializedVersion: 2
+        x: 46
+        y: 70
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee9c3c242e02de5b0800000000000000
+      internalID: -5337573827209344530
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Roy_Attack_102
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 70
+        width: 6
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 06f0c857062d17c80800000000000000
+      internalID: -8326642924300529824
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Roy_Attack_103
+      rect:
+        serializedVersion: 2
+        x: 62
+        y: 67
+        width: 6
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 21fc0cd7e790b0480800000000000000
+      internalID: -8932034997078929646
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Roy_Attack_104
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 70
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9343bd3847d65c1e0800000000000000
+      internalID: -2178214497567951815
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Roy_Attack_105
+      rect:
+        serializedVersion: 2
+        x: 305
+        y: 72
+        width: 19
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 99522c0943e1060c0800000000000000
+      internalID: -4584631209547389543
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Roy_Attack_106
+      rect:
+        serializedVersion: 2
+        x: 331
+        y: 72
+        width: 19
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 144f3bb08efc3ec50800000000000000
+      internalID: 6693422066738394177
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Roy_Attack_107
+      rect:
+        serializedVersion: 2
+        x: 354
+        y: 72
+        width: 19
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a482fd500e2038950800000000000000
+      internalID: 6450002252519123018
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Roy_Attack_108
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 28
+        width: 31
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d0287993f957d8960800000000000000
+      internalID: 7605864672425116173
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Roy_Attack_109
+      rect:
+        serializedVersion: 2
+        x: 75
+        y: 29
+        width: 31
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 643650d1d7834f3a0800000000000000
+      internalID: -6632614241200938170
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Roy_Attack_110
+      rect:
+        serializedVersion: 2
+        x: 303
+        y: 51
+        width: 20
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b5b4474aabfe573c0800000000000000
+      internalID: -4362317079136416933
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Roy_Attack_111
+      rect:
+        serializedVersion: 2
+        x: 330
+        y: 51
+        width: 19
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ca88256ad75c7bf0800000000000000
+      internalID: -325288477565875513
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Roy_Attack_112
+      rect:
+        serializedVersion: 2
+        x: 357
+        y: 51
+        width: 18
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ccd06c9cb18df90c0800000000000000
+      internalID: -4566693883269476916
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Roy_Attack_113
+      rect:
+        serializedVersion: 2
+        x: 305
+        y: 27
+        width: 20
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d57e40ce667649c90800000000000000
+      internalID: -7163987415495547043
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Roy_Attack_114
+      rect:
+        serializedVersion: 2
+        x: 330
+        y: 27
+        width: 19
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 02bfb4b229f288e80800000000000000
+      internalID: -8176232818653005024
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Roy_Attack_115
+      rect:
+        serializedVersion: 2
+        x: 357
+        y: 27
+        width: 19
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b11455578c1e9350800000000000000
+      internalID: 6025284719046037945
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Roy_Attack_116
+      rect:
+        serializedVersion: 2
+        x: 380
+        y: 27
+        width: 19
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e58c8f1057adceab0800000000000000
+      internalID: -4977363292072130466
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Roy_Attack_117
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 5
+        width: 14
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d41c7e532cda177e0800000000000000
+      internalID: -1769442128940252851
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Roy_Attack_118
+      rect:
+        serializedVersion: 2
+        x: 325
+        y: 7
+        width: 27
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 28ede2ea337d9f620800000000000000
+      internalID: 2808512459607826050
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Roy_Attack_119
+      rect:
+        serializedVersion: 2
+        x: 356
+        y: 6
+        width: 29
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2cb96042c13bcacc0800000000000000
+      internalID: -3698384260533150782
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Roy_Attack_120
+      rect:
+        serializedVersion: 2
+        x: 166
+        y: 563
+        width: 2
+        height: 2
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 12d662b0255dcba80800000000000000
+      internalID: -8449644252502790879
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Roy_Attack_121
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 514
+        width: 11
+        height: 3
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca82e7ecf995c5f40800000000000000
+      internalID: 5718544169752733868
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

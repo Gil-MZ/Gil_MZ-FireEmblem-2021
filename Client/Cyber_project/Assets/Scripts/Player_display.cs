@@ -13,12 +13,12 @@ public class Player_display : MonoBehaviour
         if (VariableStorage.player == "1")
         {
             user.text = "Player1: " + VariableStorage.username;
-            enemy.text = "Player2: " + "???";
+            enemy.text = "Player2: " + VariableStorage.enemy_name;
         }
         else
         {
             user.text = "Player2: " + VariableStorage.username;
-            enemy.text = "Player1: " + "???";
+            enemy.text = "Player1: " + VariableStorage.enemy_name;
         }
 
     }

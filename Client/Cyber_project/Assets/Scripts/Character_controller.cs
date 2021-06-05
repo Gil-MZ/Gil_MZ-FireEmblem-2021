@@ -20,10 +20,11 @@ public class Character_controller : MonoBehaviour
     private bool active = false;
     private bool click = false;
     public Transform movepoint;
+    public GameObject range;
     private Animator anim;
     private Vector3 change;
+    //public GameObject range;
     public LayerMask StopMovement;
-
 
     // Start is called before the first frame update
     void Start()
@@ -48,7 +49,7 @@ public class Character_controller : MonoBehaviour
     {
         if (click && moves != 0 && VariableStorage.player == "1")
         {
-
+            VariableStorage.attacker = this.gameObject;
             change = Vector3.zero;
             float step = moveSpeed * Time.deltaTime;
             transform.position = Vector3.MoveTowards(transform.position, movepoint.position, step);
@@ -74,7 +75,6 @@ public class Character_controller : MonoBehaviour
                     }
                 }
             }
-
             //Debug.Log(Input.GetKeyUp(KeyCode.UpArrow));
             //if (Input.GetKeyUp(KeyCode.UpArrow))
             //{
@@ -84,13 +84,13 @@ public class Character_controller : MonoBehaviour
                 {
                     if (!Physics2D.OverlapCircle(movepoint.position + new Vector3(Input.GetAxisRaw("Horizontal"), 0f, 0f), .2f, StopMovement))
                     {
+                        moves -= 1;
                         movepoint.position += new Vector3(Input.GetAxisRaw("Horizontal"), 0f, 0f);
                         change.x = Input.GetAxisRaw("Horizontal");
                         byte[] messageSent1 = Encoding.ASCII.GetBytes(this.gameObject.name + "," + movepoint.position.x + "," + movepoint.position.y);
                         int byteSent = VariableStorage.sender.Send(messageSent1);
                         Debug.Log(this.gameObject.name + " (" + movepoint.position.x + ", " + movepoint.position.y + ")");
                         Debug.Log(moves);
-                        moves -= 1;
                         if (moves == 0)
                         {
                             click = false;
@@ -107,13 +107,13 @@ public class Character_controller : MonoBehaviour
                 {
                     if (!Physics2D.OverlapCircle(movepoint.position + new Vector3(0f, Input.GetAxisRaw("Vertical"), 0f), .2f, StopMovement))
                     {
+                        moves -= 1;
                         movepoint.position += new Vector3(0f, Input.GetAxisRaw("Vertical"), 0f);
                         change.y = Input.GetAxisRaw("Vertical");
                         byte[] messageSent1 = Encoding.ASCII.GetBytes(this.gameObject.name + "," + movepoint.position.x + "," + movepoint.position.y);
                         int byteSent = VariableStorage.sender.Send(messageSent1);
                         Debug.Log(this.gameObject.name + " (" + movepoint.position.x + ", " + movepoint.position.y + ")");
                         Debug.Log(moves);
-                        moves -= 1;
                         if (moves == 0)
                         {
                             click = false;
@@ -169,10 +169,17 @@ public class Character_controller : MonoBehaviour
             Thread.Sleep(200);
             anim.SetBool("moving", false);
             anim.SetBool("standing", true);
+
+            if (moves == 0)
+            {
+                Debug.Log("active");
+                range.SetActive(true);
+            }
+
             if (moves == 0 && VariableStorage.soldiers_clicked == 5)
             {
                 moves = 5;
-                Thread.Sleep(500);
+                Thread.Sleep(700);
                 byte[] message1 = Encoding.ASCII.GetBytes("2");
                 VariableStorage.sender.Send(message1);
                 //Thread.Sleep(200);

@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 using System;
 using System.Threading;
 using System.Net;
@@ -11,7 +12,9 @@ public class Character_activation : MonoBehaviour
 {
     bool active = false;
     public GameObject[] character;
+    public GameObject win;
     private byte[] buffer = new byte[1024];
+    private int attack_count = 0;
 
     // Start is called before the first frame update
     void Start()
@@ -35,12 +38,18 @@ public class Character_activation : MonoBehaviour
         int byteRecv4 = VariableStorage.sender.Receive(messageReceived4);
         byte[] messageReceived5 = new byte[1024];
         int byteRecv5 = VariableStorage.sender.Receive(messageReceived5);
+        byte[] messageReceived6 = new byte[1024];
+        int byteRecv6 = VariableStorage.sender.Receive(messageReceived6);
+
+
 
         VariableStorage.c6 = Encoding.ASCII.GetString(messageReceived1, 0, byteRecv1);
         VariableStorage.c7 = Encoding.ASCII.GetString(messageReceived2, 0, byteRecv2);
         VariableStorage.c8 = Encoding.ASCII.GetString(messageReceived3, 0, byteRecv3);
         VariableStorage.c9 = Encoding.ASCII.GetString(messageReceived4, 0, byteRecv4);
         VariableStorage.c10 = Encoding.ASCII.GetString(messageReceived5, 0, byteRecv5);
+        VariableStorage.enemy_name = Encoding.ASCII.GetString(messageReceived6, 0, byteRecv6);
+        Debug.Log(VariableStorage.enemy_name);
         if (VariableStorage.player == "1")
             VariableStorage.player2 = "2";
         else
@@ -68,6 +77,7 @@ public class Character_activation : MonoBehaviour
 
     private void client_Receive()
     {
+        Debug.Log("receive something");
         active = true;
         buffer = new byte[1024];
         VariableStorage.sender.BeginReceive(buffer, 0, buffer.Length, SocketFlags.None, RecvCo, VariableStorage.sender);
@@ -80,6 +90,12 @@ public class Character_activation : MonoBehaviour
         byte[] packet = new byte[buffersize];
         Array.Copy(buffer, packet, packet.Length);
         Debug.Log(Encoding.ASCII.GetString(packet, 0, packet.Length));
+        if (Encoding.ASCII.GetString(packet, 0, packet.Length) == "exitexit32exitexit")
+        {
+            win.SetActive(true);
+            Thread.Sleep(2000);
+            SceneManager.LoadScene(3);
+        }
         VariableStorage.data = Encoding.ASCII.GetString(packet, 0, packet.Length);
         Debug.Log(VariableStorage.data);
         active = false;

@@ -46,83 +46,94 @@ public class Character_controller2 : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (VariableStorage.data != "" && VariableStorage.player == "2")
+        if (VariableStorage.data != "" )
         {
             if (VariableStorage.data != "2")
             {
                 string message = VariableStorage.data;
-                string[] a = message.Split(',');
-                //Debug.Log(message.Substring(message.IndexOf(","), message.IndexOf(")")));
-                //if (Vector3.Distance(transform.position, movepoint.position) <= .05f)
-                //{
-                float i = float.Parse(a[1]);
-                float k = float.Parse(a[2]);
-                if (a[0] == this.gameObject.name.Substring(0, this.gameObject.name.Length - 4))
+                if (message.IndexOf(',') == -1)
                 {
-                    Debug.Log(a[0] == this.gameObject.name.Substring(0, this.gameObject.name.Length - 4));
-                    Debug.Log(a[0] + "," + a[1] + "," + a[2]);
-                    if (!moved)
+                    if (VariableStorage.attacker_name == "")
+                        VariableStorage.attacker_name = message;
+                    else
+                        VariableStorage.getting_attacked = message;
+                    Debug.Log(VariableStorage.attacker_name + ", " + VariableStorage.getting_attacked);
+                }
+                else
+                {
+                    string[] a = message.Split(',');
+                    //Debug.Log(message.Substring(message.IndexOf(","), message.IndexOf(")")));
+                    //if (Vector3.Distance(transform.position, movepoint.position) <= .05f)
+                    //{
+                    Debug.Log(a);
+                    float i = float.Parse(a[1]);
+                    float k = float.Parse(a[2]);
+                    if (a[0] == this.gameObject.name.Substring(0, this.gameObject.name.Length - 4))
                     {
+                        Debug.Log(a[0] == this.gameObject.name.Substring(0, this.gameObject.name.Length - 4));
+                        Debug.Log(a[0] + "," + a[1] + "," + a[2]);
+                        if (!moved)
+                        {
 
-                        if (i > this.gameObject.transform.position.x)
-                        {
-                            movepoint.position += new Vector3(1f, 0f, 0f);
-                            anim.SetBool("standing", false);
-                            anim.SetFloat("moveX", 1);
-                            anim.SetFloat("moveY", 0);
-                            anim.SetBool("moving", true);
-                            moved = true;
+                            if (i > this.gameObject.transform.position.x)
+                            {
+                                movepoint.position += new Vector3(1f, 0f, 0f);
+                                anim.SetBool("standing", false);
+                                anim.SetFloat("moveX", 1);
+                                anim.SetFloat("moveY", 0);
+                                anim.SetBool("moving", true);
+                                moved = true;
+                            }
+                            else if (i < this.gameObject.transform.position.x)
+                            {
+                                movepoint.position += new Vector3(-1f, 0f, 0f);
+                                anim.SetBool("standing", false);
+                                anim.SetFloat("moveX", -1);
+                                anim.SetFloat("moveY", 0);
+                                anim.SetBool("moving", true);
+                                moved = true;
+                            }
+                            else if (k > this.gameObject.transform.position.y)
+                            {
+                                movepoint.position += new Vector3(0f, 1f, 0f);
+                                anim.SetBool("standing", false);
+                                anim.SetFloat("moveX", 0);
+                                anim.SetFloat("moveY", 1);
+                                anim.SetBool("moving", true);
+                                moved = true;
+                            }
+                            else if (k < this.gameObject.transform.position.y)
+                            {
+                                movepoint.position += new Vector3(0f, -1f, 0f);
+                                anim.SetBool("standing", false);
+                                anim.SetFloat("moveX", 0);
+                                anim.SetFloat("moveY", -1);
+                                anim.SetBool("moving", true);
+                                moved = true;
+                            }
+                            else
+                            {
+                                anim.SetBool("moving", false);
+                                anim.SetBool("standing", true);
+                            }
                         }
-                        else if (i < this.gameObject.transform.position.x)
-                        {
-                            movepoint.position += new Vector3(-1f, 0f, 0f);
-                            anim.SetBool("standing", false);
-                            anim.SetFloat("moveX", -1);
-                            anim.SetFloat("moveY", 0);
-                            anim.SetBool("moving", true);
-                            moved = true;
-                        }
-                        else if (k > this.gameObject.transform.position.y)
-                        {
-                            movepoint.position += new Vector3(0f, 1f, 0f);
-                            anim.SetBool("standing", false);
-                            anim.SetFloat("moveX", 0);
-                            anim.SetFloat("moveY", 1);
-                            anim.SetBool("moving", true);
-                            moved = true;
-                        }
-                        else if (k < this.gameObject.transform.position.y)
-                        {
-                            movepoint.position += new Vector3(0f, -1f, 0f);
-                            anim.SetBool("standing", false);
-                            anim.SetFloat("moveX", 0);
-                            anim.SetFloat("moveY", -1);
-                            anim.SetBool("moving", true);
-                            moved = true;
-                        }
-                        else
+                        Debug.Log(movepoint.position + ", " + transform.position);
+                        this.gameObject.transform.position = Vector3.MoveTowards(this.gameObject.transform.position, movepoint.position, moveSpeed * Time.deltaTime);
+
+                        if (Vector3.Distance(transform.position, movepoint.position) < 0.000005f)
                         {
                             anim.SetBool("moving", false);
                             anim.SetBool("standing", true);
+                            moved = false;
+                            active = false;
+                            VariableStorage.data = "";
                         }
+                        //if (VariableStorage.data == "2")
+                        //{
+                        //this.gameObject.transform.position = Vector3.MoveTowards(this.gameObject.transform.position, movepoint.position, moveSpeed * Time.deltaTime);
+                        Thread.Sleep(200);
                     }
-                    Debug.Log(movepoint.position + ", " + transform.position);
-                    this.gameObject.transform.position = Vector3.MoveTowards(this.gameObject.transform.position, movepoint.position, moveSpeed * Time.deltaTime);
-
-                    if (Vector3.Distance(transform.position, movepoint.position) < 0.000005f)
-                    {
-                        anim.SetBool("moving", false);
-                        anim.SetBool("standing", true);
-                        moved = false;
-                        active = false;
-                        VariableStorage.data = "";
-                    }
-                    //if (VariableStorage.data == "2")
-                    //{
-                    //this.gameObject.transform.position = Vector3.MoveTowards(this.gameObject.transform.position, movepoint.position, moveSpeed * Time.deltaTime);
-                    Thread.Sleep(200);
                 }
-
             }
 
         }
@@ -131,7 +142,32 @@ public class Character_controller2 : MonoBehaviour
             Thread.Sleep(200);
             VariableStorage.player = "1";
             VariableStorage.soldiers_clicked = 0;
-            VariableStorage.data = "";
+        }
+    }
+
+    private void OnMouseDown()
+    {
+        Debug.Log(VariableStorage.attacking);
+        Debug.Log(Vector3.Distance(this.gameObject.transform.position, VariableStorage.attacker.transform.GetChild(0).gameObject.transform.position));
+        if (VariableStorage.attacking == true)
+        {
+            Debug.Log(Vector3.Distance(this.gameObject.transform.position, VariableStorage.attacker.transform.GetChild(0).gameObject.transform.position));
+            if (VariableStorage.attacker.name == "Eliwood" || VariableStorage.attacker.name == "Hawkeye" || VariableStorage.attacker.name == "Lyn" || VariableStorage.attacker.name == "Hector"
+                || VariableStorage.attacker.name == "Serra" || VariableStorage.attacker.name == "Alfonse" || VariableStorage.attacker.name == "Marth" || VariableStorage.attacker.name == "Roy")
+
+                if (Vector3.Distance(this.gameObject.transform.position, VariableStorage.attacker.transform.GetChild(1).gameObject.transform.position) <= 1.7)
+                    VariableStorage.getting_attacked = this.gameObject.name.Substring(0, this.gameObject.name.Length - 4);
+
+
+            if(VariableStorage.attacker.name == "Rebecca" || VariableStorage.attacker.name == "Lucina")
+                if (Vector3.Distance(this.gameObject.transform.position, VariableStorage.attacker.transform.GetChild(1).gameObject.transform.position) <= 2.6)
+                    VariableStorage.getting_attacked = this.gameObject.name.Substring(0, this.gameObject.name.Length - 4);
+            Debug.Log(VariableStorage.getting_attacked);
+            byte[] messageSent = Encoding.ASCII.GetBytes(VariableStorage.attacker.name);
+            int byteSent = VariableStorage.sender.Send(messageSent);
+            byte[] messageSent1 = Encoding.ASCII.GetBytes(VariableStorage.getting_attacked);
+            int byteSent1 = VariableStorage.sender.Send(messageSent);
+            SceneManager.LoadScene(9);
         }
     }
 }

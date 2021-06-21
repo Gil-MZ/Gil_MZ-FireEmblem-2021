@@ -158,8 +158,8 @@ public class Character_controller2 : MonoBehaviour
 
     private void OnMouseDown()
     {
-        Debug.Log(VariableStorage.attacking);
-        Debug.Log(Vector3.Distance(this.gameObject.transform.position, VariableStorage.attacker.transform.position));
+        ///Debug.Log(VariableStorage.attacking);
+        ///Debug.Log(Vector3.Distance(this.gameObject.transform.position, VariableStorage.attacker.transform.position));
         if (VariableStorage.attacking == true)
         {
             VariableStorage.range = false;

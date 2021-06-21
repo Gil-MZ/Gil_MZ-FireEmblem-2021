@@ -1,0 +1,61 @@
+﻿using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+using UnityEngine.UI;
+using UnityEngine.SceneManagement;
+using System;
+using System.Threading;
+using System.Net;
+using System.Net.Sockets;
+using System.Text;
+
+
+public class Client_Login : MonoBehaviour
+{
+
+    public void login_data()
+    {
+        while (VariableStorage.username != "" && VariableStorage.password != "" && VariableStorage.email != "")
+        {
+            Debug.Log(VariableStorage.username + " " + VariableStorage.password + " " + VariableStorage.email);
+            Login(VariableStorage.username, VariableStorage.password, VariableStorage.email);
+            break;
+        }
+    }
+
+
+    public void Login(string username, string password,string email)
+    {
+        byte[] messageSent = Encoding.ASCII.GetBytes(username);
+        int byteSent = VariableStorage.sender.Send(messageSent);
+
+        Thread.Sleep(200);
+        byte[] messageSent1 = Encoding.ASCII.GetBytes(password);
+        byteSent = VariableStorage.sender.Send(messageSent1);
+
+        Thread.Sleep(200);
+        byte[] messageSent2 = Encoding.ASCII.GetBytes(email);
+        byteSent = VariableStorage.sender.Send(messageSent2);
+
+        Thread.Sleep(200);
+
+        byte[] messageReceived = new byte[1024];
+
+        int byteRecv = VariableStorage.sender.Receive(messageReceived);
+        string massage = Encoding.ASCII.GetString(messageReceived, 0, byteRecv);
+        Debug.Log("Message from Server -> " + massage);
+
+        if (massage == "Not valid")
+        {
+            VariableStorage.error1 = true;
+        }
+
+        else
+        {
+            VariableStorage.error1 = false;
+            Debug.Log(massage);
+            SceneManager.LoadScene(3);
+        }
+
+    }
+}

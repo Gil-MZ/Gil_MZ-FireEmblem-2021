@@ -17,6 +17,9 @@ class Server(object):
         self.ready = 0
         self.close = 0
         self.data = ""
+        self.data1 = ""
+        self.left = False
+        self.left2 = False
         self.attacker = ""
         self.getting_attacked = ""
         self.gotdata = False
@@ -44,7 +47,7 @@ class Server(object):
 
                     self.player += 1
                     clientSocket.sendall("Connected to Server!".encode())
-                    client_handler = threading.Thread(target=self.Register, args=(clientSocket,player))
+                    client_handler = threading.Thread(target=self.register, args=(clientSocket,player))
                     # without comma you'd get a... TypeError: handle_client_connection() argument after * must be a sequence, not _socketobject
                     client_handler.start()
 
@@ -54,25 +57,27 @@ class Server(object):
             print("hellooooo")
             print(e)
 
-    def reset(self, player,username):
+    def reset(self, player, username):
         self.ready -= 1
         self.close = 1
         print("reset")
         if (player == 1):
             self.player = 1
-        if (player == 2):
+        if (player == 2 and self.player == 3):
             self.player = 2
         else:
             self.player = 1
         if (self.username == username):
             SQL_Data.Users().Update_user_characters(self.username, "0", "0", "0", "0", "0")
             SQL_Data.Users().Update_user_online(self.username, "0")
+            self.username = ""
         elif (self.username2 == username):
             SQL_Data.Users().Update_user_characters(self.username2, "0", "0", "0", "0", "0")
             SQL_Data.Users().Update_user_online(self.username2, "0")
+            self.username2 = ""
         print(self.player)
 
-    def Register(self,client_socket,player):
+    def register(self, client_socket, player):
         print(player)
         self.close = 0
         valid = True
@@ -80,7 +85,14 @@ class Server(object):
         code1 = "1"
         try:
             while (True):
+                print("press")
                 if(self.close == 1):
+                    if (player == 2 and self.player == 3):
+                        self.player = 2
+                    else:
+                        self.player = 1
+                    if(player == 1):
+                        self.player = 1
                     break
                 user = client_socket.recv(1024).decode()
                 print(user)
@@ -117,6 +129,7 @@ class Server(object):
                             print("success")
                             while(code1 != code):
                                 code = Server_Email.send_email(Email)
+                                print(code)
                                 client_socket.sendall(str(code).encode())
                                 code1 = client_socket.recv(1024).decode()
                                 print(code1)
@@ -132,23 +145,35 @@ class Server(object):
                                     SQL_Data.Users().insert_user(Email, Username, Password)
                                     client_socket.sendall("You have successfully registered to the game!".encode())
                                     break
+                                else:
+                                    client_socket.sendall("Not valid".encode())
                             break
 
                 elif (user == "1"):
                     self.Login(client_socket, player)
                     if (self.close == 1):
+                        if (player == 2 and self.player == 3):
+                            self.player = 2
+                        else:
+                            self.player = 1
+                        if (player == 1):
+                            self.player = 1
                         break
-                elif(user != "1" and user !="2" and user != "exitexit32exitexit"):
+                    if(self.left):
+                        self.left = False
+                        break
+                    if(self.left2):
+                        self.left2 = False
+                        break
+                elif(user != "1" and user !="2" and user == "exitexit32exitexit"):
                     print(user)
+                    if(player == 1):
+                        self.player = 1
+                    if(player == 2):
+                        self.player = 2
                     break
         except socket.error as e:
             print(e)
-        if (player == 1):
-            self.player = 1
-            print(self.player)
-        else:
-            self.player = 2
-            print(self.player)
 
 
 
@@ -173,6 +198,7 @@ class Server(object):
                         self.username = Username
                     else:
                         self.username2 = Username
+                    time.sleep(1.5)
                     self.game(client_socket, Username, player)
                     break
                 else:
@@ -181,10 +207,12 @@ class Server(object):
             self.reset(player, Username)
             print(e)
 
-    def Check_Email(self,Email):
-        if (re.match(r"[^@]+@[^@]+\.[^@]+", Email)):
+    def Check_Email(self, email):
+        if (re.match(r"[^@]+@[^@]+\.[^@]+", email)):
             return False
         return True
+
+    #def Check_language(self, username, password, email):
 
 
     def game(self,client_socket,username, player):
@@ -199,10 +227,12 @@ class Server(object):
             c1 = client_socket.recv(1024).decode()
             print(str(c1))
             if(str(c1) == "              "):
-                self.reset(player, username)
-                self.Register(client_socket, player)
+                SQL_Data.Users().Update_user_online(username, "0")
+                return
             if(str(c1) == "exitexit32exitexit"):
                 self.reset(player, username)
+                self.close = 1
+                return
             else:
                 c2 = client_socket.recv(1024).decode()
                 c3 = client_socket.recv(1024).decode()
@@ -240,163 +270,178 @@ class Server(object):
                     client_socket.sendall(self.username.encode())
 
                 while(True):
+                    self.data = ""
+                    self.data1 = ""
+                    self.attacker = ""
+                    self.getting_attacked = ""
+                    self.gotdata = False
                     time.sleep(1)
-                    for x in range(1, 27):
-                        if (player == 1):
-                            print(x)
-                            self.data = client_socket.recv(1024).decode()
-                            if (str(self.data) == "2"):
-                                if (player == 1):
-                                    self.attacker = client_socket.recv(1024).decode()
-                                    self.getting_attacked = client_socket.recv(1024).decode()
-                                    print(self.attacker + ", " + self.getting_attacked)
-                                    self.gotdata = True
-                            if(self.data == "exitexit32exitexit"):
-                                SQL_Data.Users().Update_user_lose(username)
+                    for x in range (1,32):
+                        if(player == 1):
+                            if (x%6 == 0):
+                                self.attacker = client_socket.recv(1024).decode()
+                                self.getting_attacked = client_socket.recv(1024).decode()
+                            else:
+                                self.data = client_socket.recv(1024).decode()
                                 print(self.data)
+                            if(self.data1 == "exitexit32exitexit"):
+                                time.sleep(0.2)
+                                client_socket.sendall(self.data1.encode())
                                 self.gotdata = True
-                                self.reset(player, username)
-                                break
-                            print(self.data)
-                            self.gotdata = True
-
-                        if (player == 2):
-                            print("hello player 2")
-                            while (self.gotdata != True):
-                                time.sleep(0.001)
-                            if(self.gotdata):
-                                if (str(self.data) == "2"):
-                                    if (player == 2):
-                                        while (self.gotdata != True):
-                                            time.sleep(0.1)
-                                        if (self.gotdata):
-                                            print(self.attacker + ", " + self.getting_attacked)
-                                            time.sleep(1)
-                                            client_socket.sendall(self.attacker.encode())
-                                            time.sleep(1)
-                                            client_socket.sendall(self.getting_attacked.encode())
-                                            print("sent")
-                                            self.attacker = ""
-                                            self.getting_attacked = ""
-                                    time.sleep(5)
-                                    client_socket.sendall(self.data.encode())
-                                    print("sent")
-                                    print("next turn")
-                                    self.data = ""
-                                    self.gotdata = False
-                                    break
-                                else:
-                                    client_socket.sendall(self.data.encode())
-                                    print("sent")
-                                if (str(self.data) == "exitexit32exitexit"):
-                                    SQL_Data.Users().Update_user_characters(self.username, "0", "0", "0", "0", "0")
-                                    SQL_Data.Users().Update_user_win(username)
-                                    self.data = ""
-                                    self.gotdata = False
-                                    time.sleep(3)
-                                    self.game(client_socket, username, player)
+                                SQL_Data.Users().Update_user_win(username)
                                 self.data = ""
-                                self.gotdata = False
-                        time.sleep(1)
-                        if(player == 1 and x%5 == 0 and str(self.data) != "2" ):
-                            self.attacker = client_socket.recv(1024).decode()
-                            self.getting_attacked = client_socket.recv(1024).decode()
-                            print(self.attacker + ", " + self.getting_attacked)
-                            self.gotdata = True
-
-                        if(player == 2 and x%5 == 0 and str(self.data) != "2"):
-                            while (self.gotdata != True):
-                                time.sleep(0.1)
-                            if (self.gotdata):
-                                print(self.attacker + ", " + self.getting_attacked)
-                                time.sleep(1)
-                                client_socket.sendall(self.attacker.encode())
-                                time.sleep(1)
-                                client_socket.sendall(self.getting_attacked.encode())
-                                print("sent")
-                                self.attacker = ""
-                                self.getting_attacked = ""
-                    time.sleep(1)
-
-                    for x in range(1, 27):
-                        if (player == 2):
-                            print(x)
-                            self.data = client_socket.recv(1024).decode()
+                                self.data1 = ""
+                                self.reset(player, username)
+                                self.left = True
+                                break
                             if (self.data == "exitexit32exitexit"):
+                                self.player = 1
                                 SQL_Data.Users().Update_user_lose(username)
                                 print(self.data)
-                                self.gotdata = True
+                                self.left = True
                                 self.reset(player, username)
+                                self.gotdata = True
                                 break
-                            print(self.data)
+                            if(self.data == "2"):
+                                self.gotdata = True
+                                break
                             self.gotdata = True
-                        if (player == 1):
-                            print("hello player 1")
-                            while (self.gotdata != True):
-                                time.sleep(0.001)
-                            if (self.gotdata):
-                                if (str(self.data) == "2"):
-                                    if (player == 2):
-                                        self.attacker = client_socket.recv(1024).decode()
-                                        self.getting_attacked = client_socket.recv(1024).decode()
-                                        print(self.attacker + ", " + self.getting_attacked)
-                                        self.gotdata = True
-
-                                    if (player == 1):
-                                        while (self.gotdata != True):
-                                            time.sleep(0.1)
-                                        if (self.gotdata):
-                                            print(self.attacker + ", " + self.getting_attacked)
-                                            time.sleep(1)
-                                            client_socket.sendall(self.attacker.encode())
-                                            time.sleep(1)
-                                            client_socket.sendall(self.getting_attacked.encode())
-                                            print("sent")
-                                            self.attacker = ""
-                                            self.getting_attacked = ""
-                                    client_socket.sendall(self.data.encode())
-                                    print("sent")
-                                    print("next turn")
+                            print(x)
+                        if(player == 2):
+                            while (self.gotdata != True and self.data == "") and (self.getting_attacked == "" and self.attacker == ""):
+                                print("waiting")
+                                self.data1 = client_socket.recv(1024).decode()
+                                print(self.data1)
+                                if(self.data1 == "exitexit32exitexit"):
+                                    self.gotdata = True
+                                    SQL_Data.Users().Update_user_lose(username)
                                     self.data = ""
-                                    self.gotdata = False
+                                    self.reset(player, username)
                                     break
-                                else:
-                                    client_socket.sendall(self.data.encode())
-                                    print("sent")
-                                if (str(self.data) == "exitexit32exitexit"):
-                                    SQL_Data.Users().Update_user_characters(self.username, "0", "0", "0", "0", "0")
-                                    SQL_Data.Users().Update_user_win(username)
-                                    self.data = ""
-                                    self.gotdata = False
-                                    self.game(client_socket, username, player)
+                            print("over")
+                            if(self.data1 == "exitexit32exitexit"):
+                                self.left2 = True
+                                break
+                            if(x%6 == 0):
+                                client_socket.sendall((self.attacker +"!"+ self.getting_attacked).encode())
+                            else:
+                                client_socket.sendall(self.data.encode())
+                                print("SENT!")
+                            if (str(self.data) == "exitexit32exitexit"):
+                                SQL_Data.Users().Update_user_win(username)
                                 self.data = ""
                                 self.gotdata = False
-                        time.sleep(1)
-                        if (player == 2 and x % 5 == 0 and str(self.data) != "2"):
-                            self.attacker = client_socket.recv(1024).decode()
-                            self.getting_attacked = client_socket.recv(1024).decode()
-                            print(self.attacker + ", " + self.getting_attacked)
-                            self.gotdata = True
-                        if (player == 1 and x % 5 == 0 and str(self.data) != "2"):
-                            while (self.gotdata != True):
-                                time.sleep(0.1)
-                            if (self.gotdata):
-                                time.sleep(1)
-                                client_socket.sendall(self.attacker.encode())
-                                time.sleep(1)
-                                client_socket.sendall(self.getting_attacked.encode())
-                                print("sent")
-                                self.attacker = ""
-                                self.getting_attacked = ""
+                                self.left2 = True
+                                self.reset(player, username)
+                                self.player = 1
+                                break
+                            if(self.data == "2"):
+                                self.gotdata = False
+                                self.data = ""
+                                break
+                            self.gotdata = False
+                            self.data = ""
+                            self.getting_attacked = ""
+                            self.attacker = ""
+                            print(x)
+                        while(self.data != "" and player == 1):
+                            time.sleep(0.001)
+                    print("CHANGE")
                     time.sleep(1)
-
-
-
-
-
+                    self.data = ""
+                    self.attacker = ""
+                    self.getting_attacked = ""
+                    self.gotdata = False
+                    if (self.left and player == 1):
+                        break
+                    if (self.left2 and player == 2):
+                        break
+                    self.data1 = ""
+                    for y in range(1, 32):
+                        if (player == 2):
+                            if (y % 6 == 0):
+                                self.attacker = client_socket.recv(1024).decode()
+                                self.getting_attacked = client_socket.recv(1024).decode()
+                            else:
+                                self.data = client_socket.recv(1024).decode()
+                                print(self.data)
+                            if (self.data1 == "exitexit32exitexit"):
+                                time.sleep(0.2)
+                                client_socket.sendall(self.data1.encode())
+                                self.gotdata = True
+                                SQL_Data.Users().Update_user_win(username)
+                                self.data = ""
+                                self.data1 = ""
+                                self.reset(player, username)
+                                self.left2 = True
+                                break
+                            if (self.data == "exitexit32exitexit"):
+                                self.player = 1
+                                SQL_Data.Users().Update_user_lose(username)
+                                print(self.data)
+                                self.left2 = True
+                                self.reset(player, username)
+                                self.gotdata = True
+                                break
+                            if (self.data == "2"):
+                                self.gotdata = True
+                                break
+                            self.gotdata = True
+                            print(y)
+                        if (player == 1):
+                            while (self.gotdata != True and self.data == "") and (
+                                    self.getting_attacked == "" and self.attacker == ""):
+                                print("waiting")
+                                self.data1 = client_socket.recv(1024).decode()
+                                print(self.data1)
+                                if (self.data1 == "exitexit32exitexit"):
+                                    self.gotdata = True
+                                    SQL_Data.Users().Update_user_lose(username)
+                                    self.data = ""
+                                    self.reset(player, username)
+                                    break
+                            print("over")
+                            if (self.data1 == "exitexit32exitexit"):
+                                self.left = True
+                                break
+                            if (y % 6 == 0):
+                                client_socket.sendall((self.attacker +"!"+ self.getting_attacked).encode())
+                            else:
+                                client_socket.sendall(self.data.encode())
+                                print("SENT!")
+                            if (str(self.data) == "exitexit32exitexit"):
+                                SQL_Data.Users().Update_user_win(username)
+                                self.data = ""
+                                self.gotdata = False
+                                self.left = True
+                                self.reset(player, username)
+                                self.player = 1
+                                break
+                            if (self.data == "2"):
+                                self.gotdata = False
+                                self.data = ""
+                                break
+                            self.gotdata = False
+                            self.data = ""
+                            self.getting_attacked = ""
+                            self.attacker = ""
+                            print(y)
+                        while (self.data != "" and player == 2):
+                            time.sleep(0.001)
+                    print("CHANGE")
+                    time.sleep(1)
+                    self.data = ""
+                    self.attacker = ""
+                    self.getting_attacked = ""
+                    self.gotdata = False
+                    if (self.left and player == 1):
+                        break
+                    if (self.left2 and player == 2):
+                        break
+                    self.data1 = ""
 
         except socket.error as e:
-            self.reset(player,username)
+            self.reset(player, username)
             print(e)
 
 

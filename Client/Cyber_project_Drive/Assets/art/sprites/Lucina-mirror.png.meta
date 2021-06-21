@@ -1,0 +1,616 @@
+fileFormatVersion: 2
+guid: c45f6d4c730e2354e91f07829c976002
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -9017586257307907706
+    second: Lucina-removebg-preview (1)_0
+  - first:
+      213: -7999332362305452762
+    second: Lucina-removebg-preview (1)_1
+  - first:
+      213: -3757329066675891757
+    second: Lucina-removebg-preview (1)_2
+  - first:
+      213: -1004293852832346546
+    second: Lucina-removebg-preview (1)_3
+  - first:
+      213: -391190155352250642
+    second: Lucina-removebg-preview (1)_4
+  - first:
+      213: 441454103112842529
+    second: Lucina-removebg-preview (1)_5
+  - first:
+      213: -2185538029880676449
+    second: Lucina-removebg-preview (1)_6
+  - first:
+      213: 1869214660491775118
+    second: Lucina-removebg-preview (1)_7
+  - first:
+      213: -5639018468749221495
+    second: Lucina-removebg-preview (1)_8
+  - first:
+      213: 1854994758454590878
+    second: Lucina-removebg-preview (1)_9
+  - first:
+      213: -5596527718629947948
+    second: Lucina-removebg-preview (1)_10
+  - first:
+      213: -2224019268383323112
+    second: Lucina-removebg-preview (1)_11
+  - first:
+      213: 5768196177389284215
+    second: Lucina-removebg-preview (1)_12
+  - first:
+      213: -7605297444911375522
+    second: Lucina-removebg-preview (1)_13
+  - first:
+      213: -3532649826905688361
+    second: Lucina-removebg-preview (1)_14
+  - first:
+      213: -3002005847563966440
+    second: Lucina-removebg-preview (1)_15
+  - first:
+      213: -6661520198287264323
+    second: Lucina-removebg-preview (1)_16
+  - first:
+      213: 4236897459423388102
+    second: Lucina-removebg-preview (1)_17
+  - first:
+      213: 4789085228292154475
+    second: Lucina-mirror_0
+  - first:
+      213: 2703180955695934202
+    second: Lucina-mirror_1
+  - first:
+      213: 5942357306251713298
+    second: Lucina-mirror_2
+  - first:
+      213: 8519200187171847768
+    second: Lucina-mirror_3
+  - first:
+      213: 2887356112109255583
+    second: Lucina-mirror_4
+  - first:
+      213: -5974039473046138915
+    second: Lucina-mirror_5
+  - first:
+      213: 5138514139775312331
+    second: Lucina-mirror_6
+  - first:
+      213: 5549747560437513408
+    second: Lucina-mirror_7
+  - first:
+      213: 6702071405621706723
+    second: Lucina-mirror_8
+  - first:
+      213: -4975433396095647907
+    second: Lucina-mirror_9
+  - first:
+      213: 1994591611183669549
+    second: Lucina-mirror_10
+  - first:
+      213: -1074239482425279327
+    second: Lucina-mirror_11
+  - first:
+      213: -1465126677577537919
+    second: Lucina-mirror_12
+  - first:
+      213: 3191956801149130978
+    second: Lucina-mirror_13
+  - first:
+      213: 2777755775043085040
+    second: Lucina-mirror_14
+  - first:
+      213: -4275618063189882148
+    second: Lucina-mirror_15
+  - first:
+      213: -3158566491059952302
+    second: Lucina-mirror_16
+  - first:
+      213: 6031230874725000459
+    second: Lucina-mirror_17
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Windows Store Apps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Lucina-mirror_0
+      rect:
+        serializedVersion: 2
+        x: 103
+        y: 296.25
+        width: 103.4
+        height: 98.75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b64ac6734af367240800000000000000
+      internalID: 4789085228292154475
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lucina-mirror_1
+      rect:
+        serializedVersion: 2
+        x: 206
+        y: 296.25
+        width: 103.4
+        height: 98.75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: afa6bd3d1c0a38520800000000000000
+      internalID: 2703180955695934202
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lucina-mirror_2
+      rect:
+        serializedVersion: 2
+        x: 309
+        y: 296.25
+        width: 103.4
+        height: 98.75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 21b949f6c7e777250800000000000000
+      internalID: 5942357306251713298
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lucina-mirror_3
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 198.25
+        width: 103.4
+        height: 98.75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 85eb1defe674a3670800000000000000
+      internalID: 8519200187171847768
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lucina-mirror_4
+      rect:
+        serializedVersion: 2
+        x: 103
+        y: 198.25
+        width: 103.4
+        height: 98.75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f9b335a0613f11820800000000000000
+      internalID: 2887356112109255583
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lucina-mirror_5
+      rect:
+        serializedVersion: 2
+        x: 206
+        y: 198.25
+        width: 103.4
+        height: 98.75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ddf4ce640c2f71da0800000000000000
+      internalID: -5974039473046138915
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lucina-mirror_6
+      rect:
+        serializedVersion: 2
+        x: 309
+        y: 198.25
+        width: 103.4
+        height: 98.75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc121a6926baf4740800000000000000
+      internalID: 5138514139775312331
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lucina-mirror_7
+      rect:
+        serializedVersion: 2
+        x: 412
+        y: 198.25
+        width: 103.4
+        height: 98.75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ccf7fc900aa40d40800000000000000
+      internalID: 5549747560437513408
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lucina-mirror_8
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 100.25
+        width: 103.4
+        height: 98.75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3ef726f2f6a820d50800000000000000
+      internalID: 6702071405621706723
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lucina-mirror_9
+      rect:
+        serializedVersion: 2
+        x: 103
+        y: 100.25
+        width: 103.4
+        height: 98.75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d5f7a1eefa5b3fab0800000000000000
+      internalID: -4975433396095647907
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lucina-mirror_10
+      rect:
+        serializedVersion: 2
+        x: 206
+        y: 100.25
+        width: 103.4
+        height: 98.75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d21a398a0863eab10800000000000000
+      internalID: 1994591611183669549
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lucina-mirror_11
+      rect:
+        serializedVersion: 2
+        x: 309
+        y: 100.25
+        width: 103.4
+        height: 98.75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ac775ed1e88711f0800000000000000
+      internalID: -1074239482425279327
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lucina-mirror_12
+      rect:
+        serializedVersion: 2
+        x: 412
+        y: 100.25
+        width: 103.4
+        height: 98.75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 186ea00ac03daabe0800000000000000
+      internalID: -1465126677577537919
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lucina-mirror_13
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2.25
+        width: 103.4
+        height: 98.75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e8d2e68ccb1c4c20800000000000000
+      internalID: 3191956801149130978
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lucina-mirror_14
+      rect:
+        serializedVersion: 2
+        x: 103
+        y: 2.25
+        width: 103.4
+        height: 98.75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f2ab3409229c8620800000000000000
+      internalID: 2777755775043085040
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lucina-mirror_15
+      rect:
+        serializedVersion: 2
+        x: 206
+        y: 2.25
+        width: 103.4
+        height: 98.75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cdac2545604f9a4c0800000000000000
+      internalID: -4275618063189882148
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lucina-mirror_16
+      rect:
+        serializedVersion: 2
+        x: 309
+        y: 2.25
+        width: 103.4
+        height: 98.75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2556becd2848a24d0800000000000000
+      internalID: -3158566491059952302
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lucina-mirror_17
+      rect:
+        serializedVersion: 2
+        x: 412
+        y: 2.25
+        width: 103.4
+        height: 98.75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b052a56968c33b350800000000000000
+      internalID: 6031230874725000459
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

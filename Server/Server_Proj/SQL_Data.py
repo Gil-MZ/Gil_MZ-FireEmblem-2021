@@ -174,9 +174,10 @@ class Users:
                 list_User.append(row[3])
                 list_User.append(row[11])
             if (access == 2):
+                print(password)
                 if (email in list_User):
                     return True
-                elif(password == username):
+                elif(password == username or len(str(password)) < 6):
                     return True
                 elif (username in list_User):
                     return True

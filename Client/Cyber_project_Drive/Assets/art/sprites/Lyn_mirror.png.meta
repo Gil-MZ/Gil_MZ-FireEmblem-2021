@@ -1,0 +1,562 @@
+fileFormatVersion: 2
+guid: 177033f7e3c94924fb8bdbe0abc80a95
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -5880128931979923816
+    second: Lyn_mirror_0
+  - first:
+      213: 5172286247141331429
+    second: Lyn_mirror_1
+  - first:
+      213: -1090013589605051331
+    second: Lyn_mirror_2
+  - first:
+      213: 5771613772084448455
+    second: Lyn_mirror_3
+  - first:
+      213: -4933525528497991969
+    second: Lyn_mirror_4
+  - first:
+      213: -5050946648254461769
+    second: Lyn_mirror_5
+  - first:
+      213: 8017017123716117711
+    second: Lyn_mirror_6
+  - first:
+      213: -8189814467956095414
+    second: Lyn_mirror_7
+  - first:
+      213: -4831103033520582921
+    second: Lyn_mirror_8
+  - first:
+      213: -8260294175378608384
+    second: Lyn_mirror_9
+  - first:
+      213: -2552116970443113931
+    second: Lyn_mirror_10
+  - first:
+      213: -2801825518881516124
+    second: Lyn_mirror_11
+  - first:
+      213: 6349804931290515427
+    second: Lyn_mirror_12
+  - first:
+      213: 5464783131161616594
+    second: Lyn_mirror_13
+  - first:
+      213: -3106352711134872783
+    second: Lyn_mirror_14
+  - first:
+      213: -1311484954937992549
+    second: Lyn_mirror_15
+  - first:
+      213: 4766048868216170971
+    second: Lyn_mirror_16
+  - first:
+      213: 7863888713366587486
+    second: Lyn_mirror_17
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Windows Store Apps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Lyn_mirror_0
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 241.5
+        width: 84.2
+        height: 80.5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 89ee6dff3e5956ea0800000000000000
+      internalID: -5880128931979923816
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lyn_mirror_1
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 241.5
+        width: 84.2
+        height: 80.5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e15f7510f6a7c740800000000000000
+      internalID: 5172286247141331429
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lyn_mirror_2
+      rect:
+        serializedVersion: 2
+        x: 252
+        y: 241.5
+        width: 84.2
+        height: 80.5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d341e375a6e7fd0f0800000000000000
+      internalID: -1090013589605051331
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lyn_mirror_3
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 161.5
+        width: 84.2
+        height: 80.5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7cc88d97524e81050800000000000000
+      internalID: 5771613772084448455
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lyn_mirror_4
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 161.5
+        width: 84.2
+        height: 80.5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fde4e87bba8988bb0800000000000000
+      internalID: -4933525528497991969
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lyn_mirror_5
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 161.5
+        width: 84.2
+        height: 80.5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b8c753d8ce67e9b0800000000000000
+      internalID: -5050946648254461769
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lyn_mirror_6
+      rect:
+        serializedVersion: 2
+        x: 252
+        y: 161.5
+        width: 84.2
+        height: 80.5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc4b259199a224f60800000000000000
+      internalID: 8017017123716117711
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lyn_mirror_7
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 161.5
+        width: 84.2
+        height: 80.5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a464f15022fe75e80800000000000000
+      internalID: -8189814467956095414
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lyn_mirror_8
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 81.5
+        width: 84.2
+        height: 80.5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7fe81b5236974fcb0800000000000000
+      internalID: -4831103033520582921
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lyn_mirror_9
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 81.5
+        width: 84.2
+        height: 80.5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 00f6450663a8d5d80800000000000000
+      internalID: -8260294175378608384
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lyn_mirror_10
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 81.5
+        width: 84.2
+        height: 80.5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 53afd77132f059cd0800000000000000
+      internalID: -2552116970443113931
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lyn_mirror_11
+      rect:
+        serializedVersion: 2
+        x: 252
+        y: 81.5
+        width: 84.2
+        height: 80.5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4a55178098aed19d0800000000000000
+      internalID: -2801825518881516124
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lyn_mirror_12
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 81.5
+        width: 84.2
+        height: 80.5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e7489a31f90f1850800000000000000
+      internalID: 6349804931290515427
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lyn_mirror_13
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1.5
+        width: 84.2
+        height: 80.5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d06f6bdd4fc6db40800000000000000
+      internalID: 5464783131161616594
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lyn_mirror_14
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 1.5
+        width: 84.2
+        height: 80.5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 13bfbb9daa404e4d0800000000000000
+      internalID: -3106352711134872783
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lyn_mirror_15
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 1.5
+        width: 84.2
+        height: 80.5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b9ad6acc16baccde0800000000000000
+      internalID: -1311484954937992549
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lyn_mirror_16
+      rect:
+        serializedVersion: 2
+        x: 252
+        y: 1.5
+        width: 84.2
+        height: 80.5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd96d2ca138642240800000000000000
+      internalID: 4766048868216170971
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lyn_mirror_17
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 1.5
+        width: 84.2
+        height: 80.5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e584b61ce15222d60800000000000000
+      internalID: 7863888713366587486
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
